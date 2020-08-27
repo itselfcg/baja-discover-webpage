@@ -1,0 +1,82 @@
+input, textarea, select, button {
+  width : 150px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+legend{
+        font-family: "Lato", sans-serif;
+
+      src: url('https://fonts.googleapis.com/css?family=Lato'); /*URL to font*/
+
+    text-align: left;
+    color: darkslategrey;
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+}
+
+label.field{
+    text-align: right;
+    width:100px;
+    float:left;
+    
+    
+    
+}
+input.textbox-300{
+    width: 300px;
+    float:left;
+    
+}
+
+fieldset p{
+    
+    clear:both;
+    padding: 5px;
+}
+
+.redondear{
+    border-radius: 50px;
+    
+}
+fieldset{
+    
+    width: 500px;
+     margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+.container {
+  width: 500px;
+  clear: both;
+}
+.styleform label{float:left;}
+.styleform input{margin-left:200px;} /* this gives space for the label on the left */
+.styleform .clear{clear:both;}
+
+
+label {
+    display:block;
+    position:relative;
+}
+
+label span {
+    position:absolute;
+    left: 40px;
+}
+
+label input, label textarea, label select {
+    margin-left: 0px;    
+}
+
+button{
+    border-radius: 10px;
+}

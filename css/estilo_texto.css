@@ -1,0 +1,81 @@
+body {
+    font-family: "Lato", sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato'); /*URL to font*/
+    font-size: 14px;
+}
+
+h1 {
+    color: white;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.texto_cuadros{
+    font-family: "Lato", sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato'); /*URL to font*/
+
+    text-align: center;
+    color: white;
+    font-size: 23px;
+
+    padding-top: 55px;
+    text-transform: uppercase;
+
+    text-align-last: center;
+
+
+}
+
+.cuadro_1{
+    display: inline-table;
+
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    background: teal;
+    width: 200px;
+    height: 200px;
+        border-radius: 10px; 
+
+    vertical-align: middle;
+
+
+}
+.cuadro_1:hover{
+    background: aquamarine;
+    color: black;
+
+}
+
+.titulo{
+    font-family: "Lato", sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato'); /*URL to font*/
+
+    text-align: right;
+    color: darkslategrey;
+    font-size: 50px;
+
+    text-transform: uppercase;
+
+    text-align-last: center;
+
+
+}
+
+.titulo2{
+    font-family: "Lato", sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato'); /*URL to font*/
+
+    text-align: left;
+    color: red;
+    font-size: 25px;
+
+    text-transform: uppercase;
+
+    text-align-last: center;
+
+
+}

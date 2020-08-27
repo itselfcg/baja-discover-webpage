@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/baja-tolls.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Caseta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Ciudad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Combustible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Peaje.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Presupuesto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Ruta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Transporte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/Viaje.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clases/fruta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexion/Casetas_BD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexion/Combustible_BD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexion/Conexion_BD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexion/Login_BD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexion/Rutas_BD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexion/Transporte_BD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalogo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/estilo_texto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/loginStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generar-presupuesto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/3574.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/bajaBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="9ee5d87e-db57-4778-8920-54c76645bbbd" name="localServer" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1gbt34RhaxHuluR7i5VSIiUKCWw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\itzel\PhpstormProjects\baja-tolls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.login.php">
+    <configuration name="login.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/login.php">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localServer" start_url="/bajaTolls">
+      <method v="2" />
+    </configuration>
+    <configuration name="localServer" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localServer" start_url="/Baja-tolls">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>16104092-b7b0-4160-b1bd-c5e15cceafc0</server_id>
+          <server_name>localServer</server_name>
+          <group_name />
+          <path>C:\Users\itzel\PhpstormProjects\baja-tolls</path>
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.login.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="" />
+      <created>1598394917340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598394917340</updated>
+      <workItem from="1598394918464" duration="166000" />
+      <workItem from="1598395649828" duration="1309000" />
+      <workItem from="1598409280734" duration="2047000" />
+      <workItem from="1598412932795" duration="13000" />
+      <workItem from="1598499057736" duration="2090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="379" y="87" key="#CLI_Interpreters/62.0.1474.864@62.0.1474.864" timestamp="1598396145125" />
+    <state x="2403" y="114" key="#Options" timestamp="1598499737490">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="2403" y="114" key="#Options/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499737490" />
+    <state x="379" y="99" key="#Servers" timestamp="1598394990157">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="379" y="99" key="#Servers/62.0.1474.864@62.0.1474.864" timestamp="1598394990157" />
+    <state x="254" y="87" width="1089" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598396915056">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="254" y="87" width="1089" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864@62.0.1474.864" timestamp="1598396915056" />
+    <state x="2509" y="186" key="FileChooserDialogImpl" timestamp="1598500839821">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="579" y="186" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1598396261811" />
+    <state x="2509" y="186" key="FileChooserDialogImpl/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500839821" />
+    <state width="756" height="136" key="GridCell.Tab.0.bottom" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.0.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="756" height="136" key="GridCell.Tab.0.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="756" height="136" key="GridCell.Tab.0.center" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.0.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
+    <state width="756" height="136" key="GridCell.Tab.0.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="756" height="136" key="GridCell.Tab.0.left" timestamp="1598500855422">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.0.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
+    <state width="756" height="136" key="GridCell.Tab.0.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855422" />
+    <state width="756" height="136" key="GridCell.Tab.0.right" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.0.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
+    <state width="756" height="136" key="GridCell.Tab.0.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="756" height="136" key="GridCell.Tab.1.bottom" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.1.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="756" height="136" key="GridCell.Tab.1.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="756" height="136" key="GridCell.Tab.1.center" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.1.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="756" height="136" key="GridCell.Tab.1.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="756" height="136" key="GridCell.Tab.1.left" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.1.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="756" height="136" key="GridCell.Tab.1.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="756" height="136" key="GridCell.Tab.1.right" timestamp="1598500855423">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.1.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="756" height="136" key="GridCell.Tab.1.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
+    <state width="207" height="277" key="GridCell.Tab.2.bottom" timestamp="1598499851885">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.2.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056487" />
+    <state width="207" height="277" key="GridCell.Tab.2.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851885" />
+    <state width="207" height="277" key="GridCell.Tab.2.center" timestamp="1598499851885">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.2.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="207" height="277" key="GridCell.Tab.2.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851885" />
+    <state width="207" height="277" key="GridCell.Tab.2.left" timestamp="1598499851884">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.2.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="207" height="277" key="GridCell.Tab.2.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851884" />
+    <state width="207" height="277" key="GridCell.Tab.2.right" timestamp="1598499851885">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state width="207" height="277" key="GridCell.Tab.2.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="207" height="277" key="GridCell.Tab.2.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851885" />
+    <state x="2241" y="77" key="SettingsEditor" timestamp="1598499787244">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="308" y="77" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1598396901579" />
+    <state x="2241" y="77" key="SettingsEditor/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499787244" />
+    <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1598396913455">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/62.0.1474.864@62.0.1474.864" timestamp="1598396913455" />
+    <state x="2437" y="31" width="579" height="801" key="find.popup" timestamp="1598501120660">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="2437" y="31" width="579" height="801" key="find.popup/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598410076223" />
+    <state x="2437" y="31" width="579" height="801" key="find.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598501120660" />
+    <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup" timestamp="1598500022083">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="462" y="185" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1598396725306" />
+    <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500022083" />
+  </component>
+</project>
