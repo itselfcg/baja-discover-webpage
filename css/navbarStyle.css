@@ -1,0 +1,35 @@
+
+.navbar{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 10px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+text-transform: uppercase;
+    z-index: 999;
+
+
+}
+#logo{
+    height: 50px;
+    width: auto;
+}
+
+.nav-link{
+font-size: 25px!important;
+color: white;
+}
+li {
+    font-size: 15px!important;
+
+    padding-right: 25px;
+}
+#info-droplist i{
+    padding-right: 8px;
+}
+
+#info-droplist{
+    position: absolute;
+    z-index: 10;
+}
+
+.nav-colored { background-color: #000000!important; }
+.nav-transparent { background-color:transparent!important;}

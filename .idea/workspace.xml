@@ -10,44 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/baja-tolls.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Caseta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Ciudad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Combustible.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Peaje.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Presupuesto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Ruta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Transporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/Viaje.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clases/fruta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conexion/Casetas_BD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conexion/Combustible_BD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conexion/Conexion_BD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conexion/Login_BD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conexion/Rutas_BD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conexion/Transporte_BD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/estilo_texto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/loginStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generar-presupuesto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/3574.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/bajaBackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Change of pictures path. Change of invalid login error message appearance." />
+    <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project.">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/homeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/navbarStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
+    <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
+    <list id="f5d98176-35cb-426a-9942-08bf88a25507" name="Login view update" comment="Change of pictures path. Change of error message appearance." />
+    <list id="3f6c551a-1915-4b99-a46d-c865397db8ea" name="Resources organization." comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,10 +34,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login-styling" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
@@ -73,24 +53,30 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1gbt34RhaxHuluR7i5VSIiUKCWw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\itzel\PhpstormProjects\baja-tolls\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\itzel\PhpstormProjects\baja-tolls" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.login.php">
+  <component name="RunManager" selected="PHP Web Page.localServer">
     <configuration name="login.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/login.php">
       <method v="2" />
     </configuration>
@@ -117,6 +103,10 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="" />
+      <changelist id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
+      <changelist id="3f6c551a-1915-4b99-a46d-c865397db8ea" name="Resources organization." comment="" />
+      <changelist id="f5d98176-35cb-426a-9942-08bf88a25507" name="Login changes" comment="Change of pictures path. Change of error message appearance." />
+      <changelist id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
       <created>1598394917340</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -125,8 +115,48 @@
       <workItem from="1598395649828" duration="1309000" />
       <workItem from="1598409280734" duration="2047000" />
       <workItem from="1598412932795" duration="13000" />
-      <workItem from="1598499057736" duration="2090000" />
+      <workItem from="1598499057736" duration="3550000" />
+      <workItem from="1598570572573" duration="1566000" />
+      <workItem from="1598583130885" duration="2090000" />
+      <workItem from="1599792030756" duration="5878000" />
+      <workItem from="1599861302103" duration="7385000" />
     </task>
+    <task id="LOCAL-00001" summary="Base project">
+      <created>1598501220190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598501220191</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Resources organization.">
+      <created>1599868387840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599868387840</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Resources organization.">
+      <created>1599868599005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599868599005</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Resources organization.">
+      <created>1599868609834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599868609834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change of pictures path. Change of invalid login error message appearance.">
+      <created>1599868674923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599868674923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,9 +172,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Base project" />
+    <MESSAGE value="Resources organization." />
+    <MESSAGE value="Change of pictures path. Change of error message appearance." />
+    <MESSAGE value="Change of pictures path. Change of invalid login error message appearance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change of pictures path. Change of invalid login error message appearance." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
@@ -168,80 +204,102 @@
     </state>
     <state x="579" y="186" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1598396261811" />
     <state x="2509" y="186" key="FileChooserDialogImpl/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500839821" />
-    <state width="756" height="136" key="GridCell.Tab.0.bottom" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.0.bottom" timestamp="1599792140095">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="756" height="136" key="GridCell.Tab.0.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="756" height="136" key="GridCell.Tab.0.center" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.0.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140095" />
+    <state width="207" height="245" key="GridCell.Tab.0.center" timestamp="1599792140093">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
-    <state width="756" height="136" key="GridCell.Tab.0.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="756" height="136" key="GridCell.Tab.0.left" timestamp="1598500855422">
+    <state width="207" height="245" key="GridCell.Tab.0.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140093" />
+    <state width="207" height="245" key="GridCell.Tab.0.left" timestamp="1599792140093">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
-    <state width="756" height="136" key="GridCell.Tab.0.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855422" />
-    <state width="756" height="136" key="GridCell.Tab.0.right" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.0.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140093" />
+    <state width="207" height="245" key="GridCell.Tab.0.right" timestamp="1599792140095">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
-    <state width="756" height="136" key="GridCell.Tab.0.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="756" height="136" key="GridCell.Tab.1.bottom" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.0.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140095" />
+    <state width="207" height="245" key="GridCell.Tab.1.bottom" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.1.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="756" height="136" key="GridCell.Tab.1.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="756" height="136" key="GridCell.Tab.1.center" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.1.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.1.center" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.1.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="756" height="136" key="GridCell.Tab.1.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="756" height="136" key="GridCell.Tab.1.left" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.1.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.1.left" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.1.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="756" height="136" key="GridCell.Tab.1.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="756" height="136" key="GridCell.Tab.1.right" timestamp="1598500855423">
+    <state width="207" height="245" key="GridCell.Tab.1.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.1.right" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.1.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="756" height="136" key="GridCell.Tab.1.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500855423" />
-    <state width="207" height="277" key="GridCell.Tab.2.bottom" timestamp="1598499851885">
+    <state width="207" height="245" key="GridCell.Tab.1.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.2.bottom" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.2.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056487" />
-    <state width="207" height="277" key="GridCell.Tab.2.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851885" />
-    <state width="207" height="277" key="GridCell.Tab.2.center" timestamp="1598499851885">
+    <state width="207" height="245" key="GridCell.Tab.2.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.2.center" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.2.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="207" height="277" key="GridCell.Tab.2.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851885" />
-    <state width="207" height="277" key="GridCell.Tab.2.left" timestamp="1598499851884">
+    <state width="207" height="245" key="GridCell.Tab.2.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.2.left" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.2.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="207" height="277" key="GridCell.Tab.2.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851884" />
-    <state width="207" height="277" key="GridCell.Tab.2.right" timestamp="1598499851885">
+    <state width="207" height="245" key="GridCell.Tab.2.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state width="207" height="245" key="GridCell.Tab.2.right" timestamp="1598585158410">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.2.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
-    <state width="207" height="277" key="GridCell.Tab.2.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499851885" />
-    <state x="2241" y="77" key="SettingsEditor" timestamp="1598499787244">
+    <state width="207" height="245" key="GridCell.Tab.2.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
+    <state x="2241" y="77" key="SettingsEditor" timestamp="1598584850204">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
     <state x="308" y="77" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1598396901579" />
-    <state x="2241" y="77" key="SettingsEditor/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598499787244" />
+    <state x="2241" y="77" key="SettingsEditor/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584850204" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599867097848">
+      <screen x="2001" y="0" width="1455" height="864" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599867097848" />
+    <state x="2579" y="346" key="VCS.ChangelistChooser" timestamp="1599868620651">
+      <screen x="2001" y="0" width="1455" height="864" />
+    </state>
+    <state x="2579" y="346" key="VCS.ChangelistChooser/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599868620651" />
+    <state x="2560" y="302" key="VCS.EditChangelistDialog" timestamp="1599868695517">
+      <screen x="2001" y="0" width="1455" height="864" />
+    </state>
+    <state x="2558" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584918020" />
+    <state x="2560" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599868695517" />
+    <state x="2320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1598501269032">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="2320" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598501269032" />
+    <state x="2545" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598583403564">
+      <screen x="1998" y="0" width="1458" height="864" />
+    </state>
+    <state x="2545" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598583403564" />
     <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1598396913455">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/62.0.1474.864@62.0.1474.864" timestamp="1598396913455" />
-    <state x="2437" y="31" width="579" height="801" key="find.popup" timestamp="1598501120660">
-      <screen x="1998" y="0" width="1458" height="864" />
+    <state x="2439" y="31" width="578" height="801" key="find.popup" timestamp="1599867347665">
+      <screen x="2001" y="0" width="1455" height="864" />
     </state>
     <state x="2437" y="31" width="579" height="801" key="find.popup/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598410076223" />
-    <state x="2437" y="31" width="579" height="801" key="find.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598501120660" />
+    <state x="2437" y="31" width="579" height="801" key="find.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584969718" />
+    <state x="2439" y="31" width="578" height="801" key="find.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599867347665" />
     <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup" timestamp="1598500022083">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>
