@@ -5,7 +5,7 @@
       <paths name="localServer">
         <serverdata>
           <mappings>
-            <mapping deploy="baja-tolls" local="$PROJECT_DIR$" web="/Baja-tolls" />
+            <mapping deploy="baja-discover" local="$PROJECT_DIR$" web="/baja-discover" />
           </mappings>
         </serverdata>
       </paths>
