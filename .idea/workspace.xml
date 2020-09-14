@@ -10,23 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="New main page for project. Basic intro section and page navbar.">
-      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/bajamap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/bajamap.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/banners/ensenada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/banners/mexicali.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/banners/rosarito.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/banners/tecate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/intro/banners/tijuana.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/homeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/loginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navbarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-    </list>
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background." />
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
     <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
     <list id="f5d98176-35cb-426a-9942-08bf88a25507" name="Login view update" comment="Change of pictures path. Change of error message appearance." />
@@ -140,7 +124,7 @@
       <workItem from="1599792030756" duration="5878000" />
       <workItem from="1599861302103" duration="7707000" />
       <workItem from="1599869092251" duration="215000" />
-      <workItem from="1600037726227" duration="3225000" />
+      <workItem from="1600037726227" duration="3688000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -184,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599868730486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New pictures for info section">
+      <created>1600041525856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600041525856</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Login stylesheet rename">
+      <created>1600041578025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600041578025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background.">
+      <created>1600041892167</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600041892167</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +241,10 @@
     <MESSAGE value="Change of pictures path. Change of error message appearance." />
     <MESSAGE value="Change of pictures path. Change of invalid login error message appearance." />
     <MESSAGE value="New main page for project. Basic intro section and page navbar." />
-    <option name="LAST_COMMIT_MESSAGE" value="New main page for project. Basic intro section and page navbar." />
+    <MESSAGE value="New pictures for info section" />
+    <MESSAGE value="Login stylesheet rename" />
+    <MESSAGE value="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background." />
+    <option name="LAST_COMMIT_MESSAGE" value="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
