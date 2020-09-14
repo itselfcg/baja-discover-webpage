@@ -1,11 +1,10 @@
 
 .navbar{
     position: fixed; /* Set the navbar to fixed position */
-    top: 10px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 text-transform: uppercase;
     z-index: 999;
-
+background-color: #020024!important;
 
 }
 #logo{
@@ -29,6 +28,11 @@ li {
 #info-droplist{
     position: absolute;
     z-index: 10;
+}
+
+
+a:hover{
+  color: #5b9235 !important;
 }
 
 .nav-colored { background-color: #000000!important; }
