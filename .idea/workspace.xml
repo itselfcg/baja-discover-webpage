@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background." />
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background.">
+      <change afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
     <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
     <list id="f5d98176-35cb-426a-9942-08bf88a25507" name="Login view update" comment="Change of pictures path. Change of error message appearance." />
@@ -352,11 +361,11 @@
     </state>
     <state x="2558" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584918020" />
     <state x="2560" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599868695517" />
-    <state x="2322" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599880388105">
+    <state x="2322" y="165" key="Vcs.Push.Dialog.v2" timestamp="1600042056289">
       <screen x="2001" y="0" width="1455" height="864" />
     </state>
     <state x="2320" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598501269032" />
-    <state x="2322" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599880388105" />
+    <state x="2322" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1600042056289" />
     <state x="2545" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598583403564">
       <screen x="1998" y="0" width="1458" height="864" />
     </state>

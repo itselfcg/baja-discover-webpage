@@ -23,7 +23,7 @@
 }
 
 .home-info{
-    padding-top: 75px;
+    padding-top: 40px;
     width: 50%;
 
     position: absolute;
@@ -35,7 +35,8 @@
 h1{
     color: white;
     user-select: none;
-
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
 }
 
 .p1,.p2,.p3{

@@ -15,8 +15,11 @@
 
 
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+
     <link rel="stylesheet" type="text/css" href="css/intro.css">
     <link rel="stylesheet" type="text/css" href="css/info.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
 
     <script type="text/javascript" src="js/navbar.js"></script>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
@@ -33,6 +36,9 @@
             <img id="logo" src="imagenes/logo/lightlogo.png" alt="Logo">
 
             <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="">HOME</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                        data-toggle="dropdown"
@@ -68,6 +74,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">TOURS</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutus">CONTACT</a>
+                </li>
             </ul>
         </div>
 
@@ -77,7 +86,8 @@
     <section class="intro-section">
         <div id="intro-container">
             <label class="intro-lbl">VISIT BC </label><br>
-            <button class="btn home-btn"><a href="#home">MORE INFO</a></button>
+          <a href="#home" class="btn"><i class="fa fa-plus" aria-hidden="true"></i>
+                     INFORMATION</a>
         </div>
         <div id="intro-carousel">
             <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">
@@ -183,9 +193,126 @@
             </div>
         </div>
     </section>
-    <section class="info-section">
+    <section id="aboutus" class="about-section">
+        <br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-1 "></div>
 
-        sdfd
+                <div class="col-5">
+                    <h3>¡HOLA AMIGO! &nbsp;	<i class="fa fa-globe" aria-hidden="true"></i>
+                    </h3>
+                    <p>
+                        We are a company dedicated to tourism in Baja California. With more than 25 years working to
+                        make your
+                        experience unforgettable, we can offer you a very wide catalog of activities to do on your trip
+                        to any
+                        of the wonderful destinations that BC offers you. Follow us in all out social media.
+                        <br><br>
+                        Fell free to contact us for any question we'll be happy to help you :)
+                        <br>
+
+
+                    </p>
+                    <br>
+                    <div class="address-container">
+                        <p>
+                            Simón Bolívar # 232-12,<br>
+                            Col. Centro, C.P. 44140, Mexicali, Baja California.<br>
+                            <label class="phone-lbl"> +52 (686)-537-###</label><br>
+                        </p>
+                        <br>
+                        <p>
+                            Av. Chapultepec No. 536 - PH<br>
+                            Col. Roma Norte, C.P. 06700<br>
+                            Tijuana, Baja California.</label><br>
+                            <label class="phone-lbl">+52 (664)-123-###<br>
+                        </p><br>
+                        <p>
+                            Calle 12 x 11 No. 301.<br>
+                            Fracc. Residencial Cámara de Comercio Norte, C.P. 97133<br>
+                            Rosarito, Baja California.<br>
+                            <label class="phone-lbl"> +52 (661)-312-###</label><br>
+                        </p></div>
+                </div>
+
+                <div class="col-6">
+                    <div class="form-container">
+                    <form id="survey-form">
+                        <div class="form-contain">
+                            <div class="s-padding">
+                                <div class="subtitle">CONTACT US</div>
+                                <hr>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <label id="name-label" for="name">First name</label>
+                                        <input id="name" class="form-control" type="text" name="name-label"
+                                               placeholder="First name" required/>
+                                    </div>
+
+                                    <div class="col">
+                                        <label id="lastname-label" for="lastname">Last name</label>
+                                        <input id="lastname" class="form-control" type="text" name="lastname-label"
+                                               placeholder="Last name" required/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <label id="email-label" for="email">Email</label>
+                                        <input id="email" class="form-control" type="email" name="email-label"
+                                               placeholder="Email" required/>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="row">
+
+                                    <div class="col">
+                                        <label id="phonenumber-label" for="phonenumber">Phone number</label>
+                                        <input id="phonenumber" class="form-control" type="text"
+                                               name="phonenumber-label" placeholder="Phone number" required/>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <label for="exampleFormControlTextarea1">Write anything we should know</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="float-right">
+
+                            <button type="button" class="btn " data-toggle="tooltip" data-placement="left"
+                                    title="Tooltip on left">
+
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+
+                                SEND
+                            </button>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                    </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
     </section>
 
 

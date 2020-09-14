@@ -31,9 +31,16 @@ li {
 }
 
 
-a:hover{
+#main-navbar a:hover{
   color: #5b9235 !important;
+    border-bottom: 1px solid #5b9235;
 }
 
+#main-navbar a:visited{
+    color: white;
+}
+#main-navbar .nav-link:link{
+    color: white;
+}
 .nav-colored { background-color: #000000!important; }
 .nav-transparent { background-color:transparent!important;}
