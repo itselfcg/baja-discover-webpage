@@ -22,9 +22,12 @@
 }
 
 #intro-carousel{
-    position: absolute;
     z-index: 0;
+}
 
+.intro-banner{
+    position: relative;
+width: 100%;
 }
 
 #intro-carousel img {
@@ -34,25 +37,36 @@
 }
 
 .intro-lbl {
+    text-shadow: 2px 2px 5px rgb(72, 72, 72);
     color: #ffffff;
-    font-size: 80px;
-    background: rgb(189, 122, 55);
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 170px;
+    background: transparent;
+    padding-bottom: 0px!important;
+    margin-bottom: -35px!important;
     user-select: none;
 }
 
-#main-content .btn {
+#intro-container .btn {
+    text-shadow: 2px 2px 5px rgb(72, 72, 72);
+
     font-weight: bold;
     background: transparent;
-
+    color: white;
     border-style: solid;
     border-color: white;
+    border-width: 2px;
+
 }
 
-#main-content .btn:hover{
+#intro-container .btn:hover{
+    text-shadow: 0px 0px;
+
     background: #d6d6d6;
-    color: black;
+    border-color:  #d6d6d6;
+    color: black!important;
+    border-style: solid;
+    border-width: 2px;
+
 
 }
 #intro-container a:link{

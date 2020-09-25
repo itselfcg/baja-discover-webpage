@@ -84,53 +84,71 @@
 </header>
 <main id="main-content">
     <section class="intro-section">
-        <div id="intro-container">
-            <label class="intro-lbl">VISIT BC </label><br>
-          <a href="#home" class="btn"><i class="fa fa-plus" aria-hidden="true"></i>
-                     INFORMATION</a>
-        </div>
-        <div id="intro-carousel">
-            <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="imagenes/main/banner1.jpg" alt="Month's brand banner">
+        <div class="intro-banner">
+            <div id="intro-container">
+                <label class="intro-lbl">VISIT BC </label><br>
+                <a href="#home" class="btn"><i class="fa fa-plus" aria-hidden="true"></i>
+                    INFORMATION</a>
+            </div>
+            <div id="intro-carousel">
+                <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#intro-carousel" data-slide-to="1"></li>
+                        <li data-target="#intro-carousel" data-slide-to="2"></li>
+                        <li data-target="#intro-carousel" data-slide-to="3"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="imagenes/main/banner2.jpg" alt="Summer collection banner">
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="imagenes/main/banner3.jpg" alt="Summer collection banner">
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="imagenes/main/banner4.jpg" alt="Summer collection banner">
+                        </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="imagenes/main/banner1.jpg" alt="Month's brand banner">
+                        </div>
                     </div>
-                    <div class="carousel-item ">
-                        <img class="d-block w-100" src="imagenes/main/banner2.jpg" alt="Summer collection banner">
-                    </div>
-                    <div class="carousel-item ">
-                        <img class="d-block w-100" src="imagenes/main/banner3.jpg" alt="Summer collection banner">
-                    </div>
+                    <a class="carousel-control-prev" href="#headerBannerCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#headerBannerCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#headerBannerCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#headerBannerCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
+        <div class="container">
+        </div>
+
     </section>
     <section id="home" class="home-section">
 
         <div class="home-container">
             <div class="float-right">
 
-                <img id="map-background" src="imagenes/intro/bajamap.png">
+                <img id="map-background" src="imagenes/intro/bajamap2.png">
             </div>
             <div class="home-info">
+                <label>Let's talk about</label>
                 <h1>BAJA CALIFORNIA</h1>
-                <p class="p1">With over 3 million residents, Baja is the fourteenth most populated state in Mexico. Of
+                <p>With over 3 million residents, Baja is the fourteenth most populated state in Mexico. Of
                     which, Tijuana, claims more than a third of those residents with 1,600,000 people.</p>
 
-                <p class="p2">The state of Baja California is known for many charming small villages. In contrast, are
+                <p>The state of Baja California is known for many charming small villages. In contrast, are
                     the large towns of Tijuana, Mexicali, Ensenada, Tecate, and Rosarito. These towns offer many
                     historical and cultural attractions but are also known for their entertainment venues, restaurants,
                     and fun..</p>
 
-                <p class="p3">While there are many populated parts of Baja like Tijuana, there are also remote sections
+                <p>While there are many populated parts of Baja like Tijuana, there are also remote sections
                     that add to the charm. In contrast, aside from the beach activities along the coast of the state,
                     there are also eco-tourism opportunities. For example, whale watching, environmental tours, and rock
                     climbing adventures name a few. In addition, visitors find luxury hotels as well as affordable
@@ -200,9 +218,8 @@
                 <div class="col-1 "></div>
 
                 <div class="col-5">
-                    <h3>¡HOLA AMIGO! &nbsp;	<i class="fa fa-globe" aria-hidden="true"></i>
-                    </h3>
-                    <p>
+                    <h3>¡HOLA AMIGO! &nbsp;</h3>
+                    <p style="text-align: justify">
                         We are a company dedicated to tourism in Baja California. With more than 25 years working to
                         make your
                         experience unforgettable, we can offer you a very wide catalog of activities to do on your trip
@@ -217,95 +234,144 @@
                     <br>
                     <div class="address-container">
                         <p>
-                            Simón Bolívar # 232-12,<br>
-                            Col. Centro, C.P. 44140, Mexicali, Baja California.<br>
-                            <label class="phone-lbl"> +52 (686)-537-###</label><br>
+                            <label>Mexicali</label>
+
+                        <div class="row">
+                            <div class="col-11">
+                                Simón Bolívar # 232-12, Col. Centro<br>
+                                C.P. 44140, Mexicali, Baja California.<br>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-11">
+                                +52 (686)-537-###<br>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-11">
+                                contact@bajadiscover.com<br>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        </p>
+                        <hr>
+
+                        <p>
+                            <label>Tijuana</label>
+                        <div class="row">
+                            <div class="col-11">
+                                Av. Chapultepec No. 536 - PH  Col. Roma Norte<br>
+                                C.P. 06700 Tijuana, Baja California.</label><br>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-11">
+                                +52 (664)-123-###<br>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-11">
+                                contact@bajadiscover.com<br>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
                         </p>
                         <br>
-                        <p>
-                            Av. Chapultepec No. 536 - PH<br>
-                            Col. Roma Norte, C.P. 06700<br>
-                            Tijuana, Baja California.</label><br>
-                            <label class="phone-lbl">+52 (664)-123-###<br>
-                        </p><br>
-                        <p>
-                            Calle 12 x 11 No. 301.<br>
-                            Fracc. Residencial Cámara de Comercio Norte, C.P. 97133<br>
-                            Rosarito, Baja California.<br>
-                            <label class="phone-lbl"> +52 (661)-312-###</label><br>
-                        </p></div>
+                    </div>
                 </div>
 
                 <div class="col-6">
                     <div class="form-container">
-                    <form id="survey-form">
-                        <div class="form-contain">
-                            <div class="s-padding">
-                                <div class="subtitle">CONTACT US</div>
-                                <hr>
-                            </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col">
-                                        <label id="name-label" for="name">First name</label>
-                                        <input id="name" class="form-control" type="text" name="name-label"
-                                               placeholder="First name" required/>
+                        <form id="survey-form">
+                            <div class="form-contain">
+                                <div class="s-padding">
+                                    <div class="subtitle">CONTACT US</div>
+                                    <hr>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col">
+                                            <label id="name-label" for="name">First name</label>
+                                            <input id="name" class="form-control" type="text" name="name-label"
+                                                   placeholder="First name" required/>
+                                        </div>
+
+                                        <div class="col">
+                                            <label id="lastname-label" for="lastname">Last name</label>
+                                            <input id="lastname" class="form-control" type="text" name="lastname-label"
+                                                   placeholder="Last name" required/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col">
+                                            <label id="email-label" for="email">Email</label>
+                                            <input id="email" class="form-control" type="email" name="email-label"
+                                                   placeholder="Email" required/>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+
+                                    <div class="row">
+
+                                        <div class="col">
+                                            <label id="phonenumber-label" for="phonenumber">Phone number</label>
+                                            <input id="phonenumber" class="form-control" type="text"
+                                                   name="phonenumber-label" placeholder="Phone number" required/>
+                                        </div>
                                     </div>
 
-                                    <div class="col">
-                                        <label id="lastname-label" for="lastname">Last name</label>
-                                        <input id="lastname" class="form-control" type="text" name="lastname-label"
-                                               placeholder="Last name" required/>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <label for="exampleFormControlTextarea1">Write anything we should know</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                  rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col">
-                                        <label id="email-label" for="email">Email</label>
-                                        <input id="email" class="form-control" type="email" name="email-label"
-                                               placeholder="Email" required/>
-                                    </div>
+                            <hr>
 
-                                </div>
+                            <div class="float-right">
+
+                                <button type="button" class="btn ">
+
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+
+                                    SEND
+                                </button>
                             </div>
-                            <div class="form-group">
-
-                                <div class="row">
-
-                                    <div class="col">
-                                        <label id="phonenumber-label" for="phonenumber">Phone number</label>
-                                        <input id="phonenumber" class="form-control" type="text"
-                                               name="phonenumber-label" placeholder="Phone number" required/>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-                            <div class="form-group">
-                                <div class="row">
-                                    <label for="exampleFormControlTextarea1">Write anything we should know</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-
-                        <div class="float-right">
-
-                            <button type="button" class="btn " data-toggle="tooltip" data-placement="left"
-                                    title="Tooltip on left">
-
-                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-
-                                SEND
-                            </button>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                    </form>
+                            <br>
+                            <br>
+                            <br>
+                        </form>
                     </div>
                 </div>
 
