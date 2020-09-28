@@ -1,12 +1,13 @@
 
 .navbar{
+    border-radius: 0px;
     padding-top:10px;
     position: fixed; /* Set the navbar to fixed position */
     width: 100%; /* Full width */
 text-transform: uppercase;
     z-index: 999;
-background-color: #020024!important;
-
+background-color: white;
+    color: black;
 }
 #logo{
     height: 50px;
@@ -15,7 +16,7 @@ background-color: #020024!important;
 
 .nav-link{
 font-size: 25px!important;
-color: white;
+color: black;
 }
 li {
     font-size: 15px!important;
@@ -32,16 +33,14 @@ li {
 }
 
 
-#main-navbar a:hover{
-  color: white !important;
-    border-bottom: 1px solid white;
+.nav-item a:hover{
+  color: black !important;
+    border-bottom: 2px solid #BD7A37;
 }
 
 #main-navbar a:visited{
-    color: white;
+    color: black;
 }
 #main-navbar .nav-link:link{
-    color: white;
+    color: black;
 }
-.nav-colored { background-color: #000000!important; }
-.nav-transparent { background-color:transparent!important;}

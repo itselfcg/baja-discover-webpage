@@ -2,11 +2,14 @@
 .about-section {
     display: flex;
     flex-direction: column;
-
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background: white;
 
+}
+
+.about-container{
+    padding-top: 5%;
 }
 
 #aboutus h3{
@@ -18,7 +21,7 @@
 #aboutus .subtitle{
     color: #ffffff;
     font-size: 40px;
-    background: #5b9235;
+    background: #BD7A37;
   width: 100%;
     user-select: none;
     text-align: center;
@@ -26,8 +29,8 @@
 
 #aboutus .btn{
     border-width: 1px;
-    border-color:  #5b9235;
-    color: #5b9235;
+    border-color:  #BD7A37;
+    color: #BD7A37;
     text-decoration: none;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;

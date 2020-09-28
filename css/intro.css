@@ -2,12 +2,9 @@
 .intro-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100vh;
-    color: #e7e7e7;
-    background: #020024;
+    background: white;
 
 }
 
@@ -28,6 +25,7 @@
 .intro-banner{
     position: relative;
 width: 100%;
+padding-top: 75px!important;
 }
 
 #intro-carousel img {
@@ -75,4 +73,57 @@ width: 100%;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
 letter-spacing: 2px;
+}
+
+
+
+.cities-preview{
+    padding-top: 25px;
+    text-align: center;
+    width: 90%;!important;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+    height: 90%!important;
+}
+
+.preview-container{
+    position: absolute;
+    z-index: 0;
+}
+
+
+.preview-label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 3px #2E2E2E;    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    user-select: none;
+}
+
+.preview-img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.preview-container:hover .preview-img{
+    opacity: .5;
+
+}
+
+
+.preview-container:hover .preview-label{
+    color: black !important;
+    font-size: 40px;
+    text-shadow: 0px 0px 0px;
 }

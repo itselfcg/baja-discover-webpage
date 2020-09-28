@@ -1,87 +1,19 @@
 <!DOCTYPE html>
+<?php
+include 'navbar.php';
+include 'libs.php';
+
+?>
 
 <html>
 <head>
-
     <title>Baja Discover | Home </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/general.css">
-
     <link rel="stylesheet" type="text/css" href="css/intro.css">
     <link rel="stylesheet" type="text/css" href="css/info.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
-
-    <script type="text/javascript" src="js/navbar.js"></script>
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-
 </head>
 <body>
 
-<header>
-    <nav id="main-navbar" class="navbar navbar-expand-lg">
-        <div class="container">
-
-            <img id="logo" src="imagenes/logo/lightlogo.png" alt="Logo">
-
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">HOME</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        Info
-                    </a>
-                    <div id="info-droplist" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#"><i class="fa fa-cutlery" aria-hidden="true"></i>
-                            Gastronomy</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-paint-brush" aria-hidden="true"></i> Art and
-                            culture</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-shield" aria-hidden="true"></i> Security</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-sun-o" aria-hidden="true"></i> Weather</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">About us</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        Discover
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ensenada</a>
-
-                        <a class="dropdown-item" href="#">Mexicali</a>
-                        <a class="dropdown-item" href="#">Tecate</a>
-                        <a class="dropdown-item" href="#">Tijuana</a>
-                        <a class="dropdown-item" href="#">Rosarito</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">TOURS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#aboutus">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
-</header>
 <main id="main-content">
     <section class="intro-section">
         <div class="intro-banner">
@@ -103,13 +35,16 @@
                     <div class="carousel-inner">
 
                         <div class="carousel-item ">
-                            <img class="d-block w-100" src="imagenes/main/banner2.jpg" alt="Summer collection banner">
+                            <img class="d-block w-100" src="imagenes/main/banner2.jpg"
+                                 alt="Summer collection banner">
                         </div>
                         <div class="carousel-item ">
-                            <img class="d-block w-100" src="imagenes/main/banner3.jpg" alt="Summer collection banner">
+                            <img class="d-block w-100" src="imagenes/main/banner3.jpg"
+                                 alt="Summer collection banner">
                         </div>
                         <div class="carousel-item ">
-                            <img class="d-block w-100" src="imagenes/main/banner4.jpg" alt="Summer collection banner">
+                            <img class="d-block w-100" src="imagenes/main/banner4.jpg"
+                                 alt="Summer collection banner">
                         </div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="imagenes/main/banner1.jpg" alt="Month's brand banner">
@@ -125,106 +60,111 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="container">
-        </div>
 
-    </section>
-    <section id="home" class="home-section">
+            <div class="cities-preview">
 
-        <div class="home-container">
-            <div class="float-right">
+                <div class="row">
+                    <div class="col">
 
-                <img id="map-background" src="imagenes/intro/bajamap2.png">
-            </div>
-            <div class="home-info">
-                <label>Let's talk about</label>
-                <h1>BAJA CALIFORNIA</h1>
-                <p>With over 3 million residents, Baja is the fourteenth most populated state in Mexico. Of
-                    which, Tijuana, claims more than a third of those residents with 1,600,000 people.</p>
+                        <a href="ensenada.php">
+                            <div class="preview-container">
+                                <label class="preview-label">ENSENADA</label>
+                                <img class="preview-img" src="imagenes/intro/banners/ensenada.jpg">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="mexicali.php">
 
-                <p>The state of Baja California is known for many charming small villages. In contrast, are
-                    the large towns of Tijuana, Mexicali, Ensenada, Tecate, and Rosarito. These towns offer many
-                    historical and cultural attractions but are also known for their entertainment venues, restaurants,
-                    and fun..</p>
+                            <div class="preview-container">
+                                <label class="preview-label">MEXICALI</label>
+                                <img class="preview-img" src="imagenes/intro/banners/mexicali.jpg">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="rosarito">
 
-                <p>While there are many populated parts of Baja like Tijuana, there are also remote sections
-                    that add to the charm. In contrast, aside from the beach activities along the coast of the state,
-                    there are also eco-tourism opportunities. For example, whale watching, environmental tours, and rock
-                    climbing adventures name a few. In addition, visitors find luxury hotels as well as affordable
-                    travel lodges.</p>
-                <br>
-                <div class="cities-preview">
-                    <div class="row">
-                        <div class="col">
-                            <a href="ensenada">
-                                <div class="preview-container">
-                                    <label class="preview-label">ENSENADA</label>
-                                    <img class="preview-img" src="imagenes/intro/banners/ensenada.jpg">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="mexicali">
+                            <div class="preview-container">
+                                <label class="preview-label">ROSARITO</label>
+                                <img class="preview-img" src="imagenes/intro/banners/rosarito.jpg">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="tecate">
 
-                                <div class="preview-container">
-                                    <label class="preview-label">MEXICALI</label>
-                                    <img class="preview-img" src="imagenes/intro/banners/mexicali.jpg">
-                                </div>
-                            </a>
-
-                        </div>
-                        <div class="col">
-                            <a href="rosarito">
-
-                                <div class="preview-container">
-                                    <label class="preview-label">ROSARITO</label>
-                                    <img class="preview-img" src="imagenes/intro/banners/rosarito.jpg">
-                                </div>
-                            </a>
-
-                        </div>
-                        <div class="col">
-                            <a href="tecate">
-
-                                <div class="preview-container">
-                                    <label class="preview-label">TECATE</label>
-                                    <img class="preview-img" src="imagenes/intro/banners/tecate.jpg">
-                                </div>
-                            </a>
-
-                        </div>
-                        <div class="col">
-                            <a href="tijuana">
-
-                                <div class="preview-container">
-                                    <label class="preview-label">TIJUANA</label>
-                                    <img class="preview-img" src="imagenes/intro/banners/tijuana.jpg">
-                                </div>
-                            </a>
-
-                        </div>
-
-
+                            <div class="preview-container">
+                                <label class="preview-label">TECATE</label>
+                                <img class="preview-img" src="imagenes/intro/banners/tecate.jpg">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="tijuana">
+                            <div class="preview-container">
+                                <label class="preview-label">TIJUANA</label>
+                                <img class="preview-img" src="imagenes/intro/banners/tijuana.jpg">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="aboutus" class="about-section">
-        <br><br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-1 "></div>
 
-                <div class="col-5">
+
+    <section id="home" class="home-section ">
+        <div class="container home-container">
+            <div class="row">
+                <div class="col-8">
+                    <h1>BAJA CALIFORNIA</h1>
+                    <p>With over 3 million residents, Baja is the fourteenth most populated state in Mexico.
+                        Of
+                        which, Tijuana, claims more than a third of those residents with 1,600,000 people.</p>
+
+                    <p>The state of Baja California is known for many charming small villages. In contrast,
+                        are
+                        the large towns of Tijuana, Mexicali, Ensenada, Tecate, and Rosarito. These towns offer many
+                        historical and cultural attractions but are also known for their entertainment venues,
+                        restaurants,
+                        and fun..</p>
+
+                    <p>While there are many populated parts of Baja like Tijuana, there are also remote
+                        sections
+                        that add to the charm. In contrast, aside from the beach activities along the coast of the
+                        state,
+                        there are also eco-tourism opportunities. For example, whale watching, environmental tours, and
+                        rock
+                        climbing adventures name a few. In addition, visitors find luxury hotels as well as affordable
+                        travel lodges.</p>
+                    <p><a href="bc.php">Read more...</a></p>
+
+                    <h1>Our tours</h1>
+                    <p>With more than a thousand positive reviews in tripadvisor we are your best option. Make your BC experiencie unforgetable.</p>
+                    <p><a href="tours.php">Read more...</a></p>
+
+                </div>
+                <div class="col-4">
+                    <img id="map-background" src="imagenes/intro/bajamap2.png">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="aboutus" class="about-section">
+        <div class="container about-container">
+            <div class="row">
+
+                <div class="col-6">
                     <h3>¡HOLA AMIGO! &nbsp;</h3>
                     <p style="text-align: justify">
                         We are a company dedicated to tourism in Baja California. With more than 25 years working to
                         make your
                         experience unforgettable, we can offer you a very wide catalog of activities to do on your trip
                         to any
-                        of the wonderful destinations that BC offers you. Follow us in all out social media.
+                        of the wonderful destinations that BC offers you. Follow us in all our social media.
                         <br><br>
                         Fell free to contact us for any question we'll be happy to help you :)
                         <br>
@@ -271,7 +211,7 @@
                             <label>Tijuana</label>
                         <div class="row">
                             <div class="col-11">
-                                Av. Chapultepec No. 536 - PH  Col. Roma Norte<br>
+                                Av. Chapultepec No. 536 - PH Col. Roma Norte<br>
                                 C.P. 06700 Tijuana, Baja California.</label><br>
                             </div>
                             <div class="col-1">
@@ -384,7 +324,11 @@
 
 </main>
 
-
 </body>
 </html>
 
+
+<?php
+include 'footer.php';
+
+?>
