@@ -54,10 +54,7 @@ fieldset{
 }
 
 
-.container {
-  width: 500px;
-  clear: both;
-}
+
 .styleform label{float:left;}
 .styleform input{margin-left:200px;} /* this gives space for the label on the left */
 .styleform .clear{clear:both;}

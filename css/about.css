@@ -5,11 +5,12 @@
     width: 100%;
     height: 100vh;
     background: white;
+    padding-top: 8%;
+
 
 }
 
 .about-container{
-    padding-top: 5%;
 }
 
 #aboutus h3{
