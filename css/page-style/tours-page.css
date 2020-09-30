@@ -9,6 +9,14 @@
     padding-top: 3%;
 }
 
+.leyend{
+    padding-top: 10%!important;
+    padding-left: 2%;
+width: 150px!important;
+    position: fixed;
+
+}
+
 #tours-main .card{
     width: 100%;
 }
@@ -42,7 +50,7 @@ font-weight: bold;
 }
 
 #tours-main .card-header{
-padding: 25px;
+padding: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 30px;

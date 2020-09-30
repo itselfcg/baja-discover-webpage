@@ -12,7 +12,6 @@ include 'libs.php';
     <body>
     <main id="tours-main">
         <section id="packages" class="section">
-
             <div class="container">
                 <div class="card offers-card">
                     <div class="card-body">
@@ -21,18 +20,29 @@ include 'libs.php';
 
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/valleguadalupe.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/valleguadalupe.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Valle de Guadalupe</h5>
+                                        <h6>Starting at $50 US</h6>
+
 
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-offer">More info...</a>
                                         <p class="float-right">
-                                            <i class="fa fa-glass" aria-hidden="true"></i>
-                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                            <i class="fa fa-bed" aria-hidden="true"></i>
+                                             <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                   title="Drinking">
+                    <i class="fa fa-glass" style="pointer-events: none;"></i>
+                </span>
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Eating">
+                    <i class="fa fa-cutlery" style="pointer-events: none;"></i>
+                </span>
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Hotel room ">
+                    <i class="fa fa-bed" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
 
                                         </p>
                                     </div>
@@ -41,18 +51,36 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/tecatemagico.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/tecatemagico.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Tecate Magico</h5>
+                                        <h6>Starting at $35 US</h6>
+
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-offer">More info...</a>
                                         <p class="float-right">
-                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                                            <i class="fa fa-car" aria-hidden="true"></i>
+                                            
+             <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
+                    <i class="fa fa-shopping-bag" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Eating">
+                    <i class="fa fa-cutlery" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Photography spots">
+                    <i class="fa fa-camera-retro" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Driving required">
+                    <i class="fa fa-car" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
 
                                         </p>
                                     </div>
@@ -60,35 +88,62 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/tacos.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/tacos.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Tacos experience</h5>
+                                        <h6>Starting at $25 US</h6>
+
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-offer">More info...</a>
                                         <p class="float-right">
-                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Eating">
+                    <i class="fa fa-cutlery" style="pointer-events: none;"></i>
+                </span>
 
                                         </p>
                                     </div>
                                 </div>
-                            </div><div class="col-3">
+                            </div>
+                            <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/puertonuevo.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/puertonuevo.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Puerto nuevo</h5>
+                                        <h6>Starting at $50 US</h6>
+
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-offer">More info...</a>
                                         <p class="float-right">
-                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                                            <i class="fa fa-glass" aria-hidden="true"></i>
+                                            
+             <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
+                    <i class="fa fa-shopping-bag" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
 
-                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                                            <i class="fa fa-car" aria-hidden="true"></i>
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Drinking">
+                    <i class="fa fa-glass" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Eating">
+                    <i class="fa fa-cutlery" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Photography spots">
+                    <i class="fa fa-camera-retro" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Driving required">
+                    <i class="fa fa-car" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
 
                                         </p>
                                     </div>
@@ -104,20 +159,31 @@ include 'libs.php';
                         <div id="package-cards" class="row">
                             <div class="col-3">
                                 <div class="card">
-                                    
-                                    <img class="card-img-top" src="imagenes/tours/whalesandwine.jpg" >
+
+                                    <img class="card-img-top" src="imagenes/tours/whalesandwine.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Wines & Whales</h5>
+                                        <h6>Starting at $99 US</h6>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-offer">More info...</a>
 
                                         <p class="float-right">
-                                            <i class="fa fa-glass" aria-hidden="true"></i>
-                                            <i class="fa fa-binoculars" aria-hidden="true"></i>
+                                             <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                   title="Drinking">
+                    <i class="fa fa-glass" style="pointer-events: none;"></i>
+                </span>
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Beautiful views">
+                    <i class="fa fa-binoculars" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
 
-                                            <i class="fa fa-anchor" aria-hidden="true"></i>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Sailing required">
+                    <i class="fa fa-anchor" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
 
                                         </p>
                                     </div>
@@ -126,18 +192,37 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/tijuanacurious.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/tijuanacurious.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Tijuana Curious</h5>
+                                        <h6>Starting at $25 US</h6>
+
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-offer">More info...</a>
                                         <p class="float-right">
-                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                                            <i class="fa fa-car" aria-hidden="true"></i>
+                                            
+             <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
+                    <i class="fa fa-shopping-bag" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Eating">
+                    <i class="fa fa-cutlery" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Photography spots">
+                    <i class="fa fa-camera-retro" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Driving required">
+                    <i class="fa fa-car" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
 
                                         </p>
                                     </div>
@@ -156,7 +241,7 @@ include 'libs.php';
 
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/mexicali.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/mexicali.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Mexicali at night</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
@@ -164,8 +249,17 @@ include 'libs.php';
                                             the bulk of the card's content.</p>
                                         <p class="float-right">
 
-                                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                                            <i class="fa fa-binoculars" aria-hidden="true"></i>
+                                            
+             <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Photography spots">
+                    <i class="fa fa-camera-retro" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
+
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Beautiful views">
+                    <i class="fa fa-binoculars" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
+
 
                                         </p>
                                     </div>
@@ -175,14 +269,17 @@ include 'libs.php';
 
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/sandboarding.jpg" >
+                                    <img class="card-img-top" src="imagenes/tours/sandboarding.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Sandboarding</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
                                         <p class="float-right">
-                                            <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
+                                                  title="Extreme sport">
+                    <i class="fa fa-heartbeat" aria-hidden="true" style="pointer-events: none;"></i>
+                </span>
 
                                         </p>
                                     </div>
