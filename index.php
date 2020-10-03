@@ -60,50 +60,39 @@ include 'libs.php';
                 </div>
             </div>
 
-            <div class="cities-preview">
+            <div class="ad-preview">
 
-                <div class="row">
-                    <div class="col">
+                <div class="row no-gutters">
 
-                        <a href="ensenada.php">
+                    <div class="col-sm-3">
+
+                        <a href="">
                             <div class="preview-container">
-                                <label class="preview-label">ENSENADA</label>
-                                <img class="preview-img" src="imagenes/intro/banners/ensenada.jpg">
+                                <img class="preview-img" src="imagenes/tours/taco-experience/ad4.jpg">
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm">
-                        <a href="mexicali.php">
+                    <div class="col-sm-3">
 
+                        <a href="taco-experience.php">
                             <div class="preview-container">
-                                <label class="preview-label">MEXICALI</label>
-                                <img class="preview-img" src="imagenes/intro/banners/mexicali.jpg">
+                                <img class="preview-img" src="imagenes/tours/taco-experience/ad3.jpg">
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm">
-                        <a href="rosarito">
 
+                    <div class="col-sm-3">
+                        <a href="">
                             <div class="preview-container">
-                                <label class="preview-label">ROSARITO</label>
-                                <img class="preview-img" src="imagenes/intro/banners/rosarito.jpg">
+                                <img class="preview-img" src="imagenes/tours/taco-experience/ad2.jpg">
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm">
-                        <a href="tecate">
+                    <div class="col-sm-3">
 
+                        <a href="taco-experience.php.php">
                             <div class="preview-container">
-                                <label class="preview-label">TECATE</label>
-                                <img class="preview-img" src="imagenes/intro/banners/tecate.jpg">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm">
-                        <a href="tijuana">
-                            <div class="preview-container">
-                                <label class="preview-label">TIJUANA</label>
-                                <img class="preview-img" src="imagenes/intro/banners/tijuana.jpg">
+                                <img class="preview-img" src="imagenes/tours/taco-experience/ad6.jpg">
                             </div>
                         </a>
                     </div>
