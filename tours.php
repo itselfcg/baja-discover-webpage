@@ -29,7 +29,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-offer">More info...</a>
+                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
                                         <p class="float-right">
                                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
                                                    title="Drinking">
@@ -59,9 +59,9 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-offer">More info...</a>
+                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
                                         <p class="float-right">
-                                            
+
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
                     <i class="fa fa-shopping-bag" style="pointer-events: none;"></i>
                 </span>
@@ -96,7 +96,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-offer">More info...</a>
+                                        <a href="taco-experience.php" class="btn btn-offer" >More info...</a>
                                         <p class="float-right">
                                             <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
                                                   title="Eating">
@@ -117,9 +117,9 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-offer">More info...</a>
+                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
                                         <p class="float-right">
-                                            
+
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
                     <i class="fa fa-shopping-bag" aria-hidden="true" style="pointer-events: none;"></i>
                 </span>
@@ -167,7 +167,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-offer">More info...</a>
+                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
 
                                         <p class="float-right">
                                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
@@ -200,7 +200,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-offer">More info...</a>
+                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
                                         <p class="float-right">
                                             
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
