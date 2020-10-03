@@ -61,7 +61,7 @@
                 <div class="col-md-3">
                     <div class=" center">
 
-                        <img class="award" src="imagenes/main/awards.png"/>
+                        <img class="award" src="imagenes/main/footer/awards.png"/>
                     </div>
                 </div>
 

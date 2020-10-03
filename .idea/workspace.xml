@@ -11,24 +11,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background.">
-      <change afterPath="$PROJECT_DIR$/css/page-style/pricing-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/page-style/taco-experience.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/01_Verzosa_FeatCont_Joshua-Resnick.7a2b74c9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/AD3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/background.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/background2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-experience.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/page-style/puerto-nuevo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/login/3574.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/login/bajaBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/login/valle-de-guadalupe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/ad/ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/ad/ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/ad/ad4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/ad/ad4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/ad/ad5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/ad/ad6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/bajamap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/bajamap.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/bajamap2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/ensenada.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/mexicali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/rosarito.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/tecate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/tijuana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/carousel/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/carousel/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/carousel/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/carousel/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/footer/awards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/psd/background.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/psd/deals.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/mexicali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/puertonuevo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/sandboarding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/tacos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/tecatemagico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/tijuanacurious.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/valleguadalupe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/tours/tour-preview/whalesandwine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puerto-nuevo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/background/3574.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/background/bajaBackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/background/valle-de-guadalupe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/bajamap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/bajamap.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/bajamap2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/banners/ensenada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/banners/mexicali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/banners/rosarito.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/banners/tecate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/intro/banners/tijuana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/main/awards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/main/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/main/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/main/banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/main/banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/deals.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/mexicali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/puertonuevo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/sandboarding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/AD3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/ad6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/background.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/tacos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/tecatemagico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/tijuanacurious.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/valleguadalupe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/tours/whalesandwine.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tours.php" beforeDir="false" afterPath="$PROJECT_DIR$/tours.php" afterDir="false" />
     </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
@@ -155,6 +207,7 @@
       <workItem from="1601514289317" duration="4941000" />
       <workItem from="1601600470870" duration="4063000" />
       <workItem from="1601676282326" duration="8804000" />
+      <workItem from="1601765383868" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -236,7 +289,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="baja-tolls/develop" />
+                        <option value="tours-page" />
                       </list>
                     </value>
                   </entry>
@@ -252,6 +305,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="tours-page" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="baja-tolls/develop" />
@@ -275,7 +333,9 @@
     <MESSAGE value="Login stylesheet rename" />
     <MESSAGE value="New info section about Baja California and the most important cities form index.php. New stylesheet info.css and fonts.css . Minor changes in navbar for background." />
     <MESSAGE value="General update of pages style" />
-    <option name="LAST_COMMIT_MESSAGE" value="General update of pages style" />
+    <MESSAGE value="Change of intro's banners. New banners of ad that ref to tours pages." />
+    <MESSAGE value="New tour page: Taco experience." />
+    <option name="LAST_COMMIT_MESSAGE" value="New tour page: Taco experience." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
@@ -309,31 +369,35 @@
     </state>
     <state x="579" y="186" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1598396261811" />
     <state x="2509" y="186" key="FileChooserDialogImpl/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500839821" />
-    <state width="233" height="12" key="GridCell.Tab.0.bottom" timestamp="1601676296498">
-      <screen x="-1920" y="-95" width="1455" height="864" />
+    <state width="232" height="254" key="GridCell.Tab.0.bottom" timestamp="1601765462204">
+      <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.bottom/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
+    <state width="232" height="254" key="GridCell.Tab.0.bottom/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601765462204" />
     <state width="233" height="12" key="GridCell.Tab.0.bottom/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601676296498" />
     <state width="207" height="245" key="GridCell.Tab.0.bottom/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140095" />
     <state width="207" height="245" key="GridCell.Tab.0.bottom/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601080675004" />
-    <state width="233" height="12" key="GridCell.Tab.0.center" timestamp="1601676296498">
-      <screen x="-1920" y="-95" width="1455" height="864" />
+    <state width="232" height="254" key="GridCell.Tab.0.center" timestamp="1601765462202">
+      <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.center/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
+    <state width="232" height="254" key="GridCell.Tab.0.center/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601765462202" />
     <state width="233" height="12" key="GridCell.Tab.0.center/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601676296498" />
     <state width="207" height="245" key="GridCell.Tab.0.center/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140093" />
     <state width="207" height="245" key="GridCell.Tab.0.center/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601080675004" />
-    <state width="233" height="12" key="GridCell.Tab.0.left" timestamp="1601676296498">
-      <screen x="-1920" y="-95" width="1455" height="864" />
+    <state width="232" height="254" key="GridCell.Tab.0.left" timestamp="1601765462202">
+      <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.left/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
+    <state width="232" height="254" key="GridCell.Tab.0.left/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601765462202" />
     <state width="233" height="12" key="GridCell.Tab.0.left/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601676296498" />
     <state width="207" height="245" key="GridCell.Tab.0.left/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140093" />
     <state width="207" height="245" key="GridCell.Tab.0.left/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601080675004" />
-    <state width="233" height="12" key="GridCell.Tab.0.right" timestamp="1601676296498">
-      <screen x="-1920" y="-95" width="1455" height="864" />
+    <state width="232" height="254" key="GridCell.Tab.0.right" timestamp="1601765462204">
+      <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
     <state width="207" height="277" key="GridCell.Tab.0.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056485" />
+    <state width="232" height="254" key="GridCell.Tab.0.right/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601765462204" />
     <state width="233" height="12" key="GridCell.Tab.0.right/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601676296498" />
     <state width="207" height="245" key="GridCell.Tab.0.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1599792140095" />
     <state width="207" height="245" key="GridCell.Tab.0.right/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601080675004" />
@@ -385,9 +449,14 @@
     <state width="207" height="277" key="GridCell.Tab.2.right/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598412056486" />
     <state width="233" height="12" key="GridCell.Tab.2.right/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601516378830" />
     <state width="207" height="245" key="GridCell.Tab.2.right/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598585158410" />
-    <state x="-1356" y="261" key="NewPhpFileDialog" timestamp="1601514362404">
-      <screen x="-1920" y="-95" width="1455" height="864" />
+    <state x="-1416" y="60" key="NewPhpClassDialog" timestamp="1601765519501">
+      <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
+    <state x="-1416" y="60" key="NewPhpClassDialog/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601765519501" />
+    <state x="-1357" y="261" key="NewPhpFileDialog" timestamp="1601765523376">
+      <screen x="-1920" y="-95" width="1453" height="864" />
+    </state>
+    <state x="-1357" y="261" key="NewPhpFileDialog/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601765523376" />
     <state x="-1356" y="261" key="NewPhpFileDialog/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601514362404" />
     <state x="2565" y="356" key="NewPhpFileDialog/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1600998333661" />
     <state x="2244" y="77" key="SettingsEditor" timestamp="1599869306224">
@@ -409,9 +478,10 @@
     </state>
     <state x="2558" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584918020" />
     <state x="2560" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599868695517" />
-    <state x="-1599" y="70" key="Vcs.Push.Dialog.v2" timestamp="1601341355095">
-      <screen x="-1920" y="-95" width="1455" height="864" />
+    <state x="-1599" y="70" key="Vcs.Push.Dialog.v2" timestamp="1601686387072">
+      <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
+    <state x="-1599" y="70" key="Vcs.Push.Dialog.v2/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601686387072" />
     <state x="-1599" y="70" key="Vcs.Push.Dialog.v2/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601341355094" />
     <state x="2320" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598501269032" />
     <state x="2322" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1600997986586" />

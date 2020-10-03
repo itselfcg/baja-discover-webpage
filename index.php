@@ -34,19 +34,16 @@ include 'libs.php';
                     <div class="carousel-inner">
 
                         <div class="carousel-item ">
-                            <img class="d-block w-100" src="imagenes/main/banner2.jpg"
-                                 alt="Summer collection banner">
+                            <img class="d-block w-100" src="imagenes/main/carousel/banner2.jpg">
                         </div>
                         <div class="carousel-item ">
-                            <img class="d-block w-100" src="imagenes/main/banner3.jpg"
-                                 alt="Summer collection banner">
+                            <img class="d-block w-100" src="imagenes/main/carousel/banner3.jpg">
                         </div>
                         <div class="carousel-item ">
-                            <img class="d-block w-100" src="imagenes/main/banner4.jpg"
-                                 alt="Summer collection banner">
+                            <img class="d-block w-100" src="imagenes/main/carousel/banner4.jpg">
                         </div>
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="imagenes/main/banner1.jpg" alt="Month's brand banner">
+                            <img class="d-block w-100" src="imagenes/main/carousel/banner1.jpg">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#headerBannerCarousel" role="button" data-slide="prev">
@@ -68,7 +65,7 @@ include 'libs.php';
 
                         <a href="">
                             <div class="preview-container">
-                                <img class="preview-img" src="imagenes/tours/taco-experience/ad4.jpg">
+                                <img class="preview-img" src="imagenes/main/ad/ad4.jpg">
                             </div>
                         </a>
                     </div>
@@ -76,15 +73,15 @@ include 'libs.php';
 
                         <a href="taco-experience.php">
                             <div class="preview-container">
-                                <img class="preview-img" src="imagenes/tours/taco-experience/ad3.jpg">
+                                <img class="preview-img" src="imagenes/main/ad/ad3.jpg">
                             </div>
                         </a>
                     </div>
 
                     <div class="col-sm-3">
-                        <a href="">
+                        <a href="puerto-nuevo.php">
                             <div class="preview-container">
-                                <img class="preview-img" src="imagenes/tours/taco-experience/ad2.jpg">
+                                <img class="preview-img" src="imagenes/main/ad/ad2.jpg">
                             </div>
                         </a>
                     </div>
@@ -92,7 +89,7 @@ include 'libs.php';
 
                         <a href="taco-experience.php.php">
                             <div class="preview-container">
-                                <img class="preview-img" src="imagenes/tours/taco-experience/ad6.jpg">
+                                <img class="preview-img" src="imagenes/main/ad/ad6.jpg">
                             </div>
                         </a>
                     </div>

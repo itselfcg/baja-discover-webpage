@@ -20,7 +20,7 @@ include 'libs.php';
 
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/valleguadalupe.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/valleguadalupe.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Valle de Guadalupe</h5>
                                         <h6>Starting at $50 US</h6>
@@ -51,7 +51,7 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/tecatemagico.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/tecatemagico.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Tecate Magico</h5>
                                         <h6>Starting at $35 US</h6>
@@ -88,7 +88,7 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/tacos.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/tacos.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Tacos experience</h5>
                                         <h6>Starting at $25 US</h6>
@@ -109,7 +109,7 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/puertonuevo.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/puertonuevo.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Puerto nuevo</h5>
                                         <h6>Starting at $50 US</h6>
@@ -117,7 +117,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
+                                        <a href="puerto-nuevo.php" class="btn btn-offer">More info...</a>
                                         <p class="float-right">
 
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
@@ -160,7 +160,7 @@ include 'libs.php';
                             <div class="col-3">
                                 <div class="card">
 
-                                    <img class="card-img-top" src="imagenes/tours/whalesandwine.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/tour-preview/whalesandwine.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Wines & Whales</h5>
                                         <h6>Starting at $99 US</h6>
@@ -192,7 +192,7 @@ include 'libs.php';
                             </div>
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/tijuanacurious.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/tijuanacurious.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Tijuana Curious</h5>
                                         <h6>Starting at $25 US</h6>
@@ -202,7 +202,7 @@ include 'libs.php';
                                             the bulk of the card's content.</p>
                                         <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
                                         <p class="float-right">
-                                            
+
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
                     <i class="fa fa-shopping-bag" aria-hidden="true" style="pointer-events: none;"></i>
                 </span>
@@ -241,7 +241,7 @@ include 'libs.php';
 
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/mexicali.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/mexicali.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Mexicali at night</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
@@ -249,7 +249,7 @@ include 'libs.php';
                                             the bulk of the card's content.</p>
                                         <p class="float-right">
 
-                                            
+
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Photography spots">
                     <i class="fa fa-camera-retro" aria-hidden="true" style="pointer-events: none;"></i>
                 </span>
@@ -269,7 +269,7 @@ include 'libs.php';
 
                             <div class="col-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="imagenes/tours/sandboarding.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/sandboarding.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Sandboarding</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make
