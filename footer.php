@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/general/footer.css">
 </head>
 
 <footer id="footer" class="page-footer font-small blue">

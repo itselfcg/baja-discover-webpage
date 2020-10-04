@@ -8,7 +8,8 @@ include 'libs.php';
     <head>
         <title>Baja Discover | Tours </title>
         <link rel="stylesheet" type="text/css" href="css/page-style/taco-experience.css">
-        <link rel="stylesheet" type="text/css" href="css/page-style/pricing-table.css">
+        <link rel="stylesheet" type="text/css" href="css/general/pricing-table.css">
+        <link rel="stylesheet" type="text/css" href="css/general/general.css">
 
     </head>
     <body>
@@ -80,7 +81,7 @@ include 'libs.php';
                     </div>
                 </div>
                 <div class="product">
-                    <div class="product-title">Plus</div>
+                    <div class="product-title">Standar</div>
                     <div class="price">$100<sup>/ Person</sup></div>
                     <ul class="table-list">
                         <li><i class="fa fa-check" aria-hidden="true"></i>
@@ -103,7 +104,7 @@ include 'libs.php';
                 </div>
                 <div class="product">
 
-                    <div class="product-title">DIAMOND</div>
+                    <div class="product-title">Premium</div>
                     <div class="price">$200<sup>/Person</sup></div>
 
                     <ul class="table-list">

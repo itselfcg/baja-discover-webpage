@@ -43,8 +43,8 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin']) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" type="text/css" href="css/estilo_texto.css">
-        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/tmp/estilo_texto.css">
+        <link rel="stylesheet" type="text/css" href="css/tmp/estilos.css">
 
         <body style="background:url(imagenes/3574.jpg)">
 

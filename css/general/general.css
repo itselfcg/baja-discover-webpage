@@ -1,0 +1,68 @@
+@import url(../general/fonts.css);
+@import url(../general/colors.css);
+
+p {
+    font-family: 'Rubik', sans-serif!important;
+    font-size: 16px!important;
+    text-align: justify;
+}
+
+
+
+.btn {
+text-transform: uppercase;
+    font-weight: bold;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.btn:hover{
+    background: #d6d6d6;
+    border-color:  #d6d6d6;
+    color: black!important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.img-70{
+    max-width: 70%!important;
+}
+
+
+
+.btn-green{
+    color: #599334;
+    border-color: #599334;
+
+}
+
+.btn-gold{
+    color: #BD7A37;
+    border-color: #BD7A37;
+    border-width: 1px;
+
+}
+
+
+.btn-red{
+    color: #bf2d1d;
+    border-color: #bf2d1d;
+    border-width: 1px;
+
+}
+
+.btn-gray{
+    color: #d6d6d6;
+    border-color: #d6d6d6;
+
+}
+
+
+.btn-black{
+    color: black;
+    border-color: black;
+
+}

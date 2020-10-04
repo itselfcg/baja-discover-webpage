@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/general/navbar.css">
 </head>
 <header>
     <nav id="main-navbar" class="navbar navbar-expand-lg">

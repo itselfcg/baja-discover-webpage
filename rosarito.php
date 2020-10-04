@@ -280,8 +280,7 @@ include 'libs.php';
 
             </div>
             <div class="container text-right">
-                <p >
-                    <img src="imagenes/discover/Rosarito/sponsor1.png"></p>
+                <img src="imagenes/discover/Rosarito/sponsor1.png">
             </div>
         </section>
 

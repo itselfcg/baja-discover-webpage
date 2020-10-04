@@ -8,7 +8,10 @@ include 'libs.php';
     <head>
         <title>Baja Discover | Tours </title>
         <link rel="stylesheet" type="text/css" href="css/page-style/puerto-nuevo.css">
-        <link rel="stylesheet" type="text/css" href="css/page-style/pricing-table.css">    </head>
+        <link rel="stylesheet" type="text/css" href="css/general/pricing-table.css">
+        <link rel="stylesheet" type="text/css" href="css/general/general.css">
+
+    </head>
     <body>
 
     <main id="puerto-nuevo">

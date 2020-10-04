@@ -8,6 +8,8 @@ include 'libs.php';
     <head>
         <title>Baja Discover | Tours </title>
         <link rel="stylesheet" type="text/css" href="css/page-style/tours-page.css">
+        <link rel="stylesheet" type="text/css" href="css/general/general.css">
+
     </head>
     <body>
     <main id="tours-main">
@@ -15,7 +17,8 @@ include 'libs.php';
             <div class="container">
                 <div class="card offers-card">
                     <div class="card-body">
-                        <h2 class="card-header">EXPRESS</h2><br>
+                        <h2 class="card-header"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                            Express</h2><br>
                         <div id="package-cards" class="row">
 
                             <div class="col-3">
@@ -29,7 +32,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
+                                        <a href="" class="btn btn-gray disabled" aria-disabled="true">More info</a>
                                         <p class="float-right">
                                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
                                                    title="Drinking">
@@ -59,7 +62,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
+                                        <a href="" class="btn btn-gray disabled" aria-disabled="true">More info</a>
                                         <p class="float-right">
 
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
@@ -96,7 +99,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="taco-experience.php" class="btn btn-offer" >More info...</a>
+                                        <a href="taco-experience.php" class="btn btn-gold" >More info</a>
                                         <p class="float-right">
                                             <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
                                                   title="Eating">
@@ -117,7 +120,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="puerto-nuevo.php" class="btn btn-offer">More info...</a>
+                                        <a href="puerto-nuevo.php" class="btn btn-gold">More info</a>
                                         <p class="float-right">
 
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
@@ -155,7 +158,8 @@ include 'libs.php';
 
                 <div class="card offers-card">
                     <div class="card-body">
-                        <h2 class="card-header">BEST OFFERS</h2><br>
+                        <h2 class="card-header"><i class="fa fa-bell-o" aria-hidden="true"></i>
+                             Best offers</h2><br>
                         <div id="package-cards" class="row">
                             <div class="col-3">
                                 <div class="card">
@@ -167,7 +171,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
+                                        <a href="" class="btn btn-gray disabled" aria-disabled="true">More info</a>
 
                                         <p class="float-right">
                                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
@@ -200,7 +204,7 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
-                                        <a href="" class="btn btn-offer disabled" aria-disabled="true">More info...</a>
+                                        <a href="" class="btn btn-gray disabled" aria-disabled="true">More info</a>
                                         <p class="float-right">
 
              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Shopping">
@@ -236,7 +240,8 @@ include 'libs.php';
                 </div>
                 <div class="card offers-card">
                     <div class="card-body">
-                        <h2 class="card-header">COMING SOON</h2><br>
+                        <h2 class="card-header"><i class="fa fa-cog" aria-hidden="true"></i>
+                            Coming soon</h2><br>
                         <div id="package-cards" class="row">
 
                             <div class="col-3">
@@ -247,6 +252,8 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
+                                        <a href="" class="btn btn-gray disabled" aria-disabled="true">More info</a>
+
                                         <p class="float-right">
 
 
@@ -275,6 +282,8 @@ include 'libs.php';
                                         <p class="card-text">Some quick example text to build on the card title and make
                                             up
                                             the bulk of the card's content.</p>
+                                        <a href="" class="btn btn-gray disabled" aria-disabled="true">More info</a>
+
                                         <p class="float-right">
                                             <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
                                                   title="Extreme sport">
