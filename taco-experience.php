@@ -16,15 +16,10 @@ include 'libs.php';
     <main id="tacoexperience">
         <section class="intro">
             <div class="container">
-                <div class="row">
+                <div class="info">
 
-                    <div class="col-6">
 
-                    </div>
-
-                    <div class="col-6">
-
-                        <h1>TACO EXPERIENCE</h1>
+                <h1>TACO EXPERIENCE</h1>
                         <p style="text-align: center">
                             <i class="fa fa-clock-o" aria-hidden="true"></i> 2h - 12h&nbsp;&nbsp;&nbsp;
                             <i class="fa fa-car" aria-hidden="true"></i>Transportation included&nbsp;&nbsp;&nbsp;
@@ -53,7 +48,6 @@ include 'libs.php';
 
                                 BOOK NOW</a>
                         </p>
-                    </div>
 
                 </div>
             </div>

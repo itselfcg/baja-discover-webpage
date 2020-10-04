@@ -7,7 +7,20 @@
     width: 100%;
     height: 100vh;
     background: url("/baja-discover/imagenes/tours/taco-experience/background.jpg") no-repeat center center;
-color:white;
+}
+
+
+#tacoexperience .info {
+    float: right;
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
 }
 
 #tacoexperience .pricing-section {
@@ -22,9 +35,8 @@ color:white;
 
 
 #tacoexperience h1{
-    color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 57px;
+    font-size: 50px;
 }
 
 
