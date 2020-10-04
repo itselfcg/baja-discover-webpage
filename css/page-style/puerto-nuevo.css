@@ -1,0 +1,93 @@
+
+#puerto-nuevo .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("/baja-discover/imagenes/tours/puerto-nuevo/background.jpg") no-repeat center center;
+}
+
+
+#puerto-nuevo .info {
+background-color: white;
+width: 50%;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+
+}
+#puerto-nuevo .pricing-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("/baja-discover/imagenes/tours/puerto-nuevo/background2.jpg") no-repeat center center;
+}
+
+
+#puerto-nuevo h1{
+    text-align: center;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 57px;
+}
+
+#puerto-nuevo hr{
+    border-color: black;
+}
+
+
+
+
+#puerto-nuevo .btn {
+
+    font-weight: bold;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+#puerto-nuevo .btn:hover{
+    background: #d6d6d6;
+    border-color:  #d6d6d6;
+    color: black!important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn-green{
+    color: #599334;
+    border-color: #599334;
+
+}
+
+.btn-gold{
+    color: #BD7A37;
+    border-color: #BD7A37;
+    border-width: 1px;
+
+}
+
+
+.btn-red{
+    color: #bf2d1d;
+    border-color: #bf2d1d;
+    border-width: 1px;
+
+}
+
+
+.btn-black{
+    color: black;
+    border-color: black;
+
+}
+
+
+.leyend{
+}
