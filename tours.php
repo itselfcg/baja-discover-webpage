@@ -160,7 +160,7 @@ include 'libs.php';
                             <div class="col-3">
                                 <div class="card">
 
-                                    <img class="card-img-top" src="imagenes/tours/tour-preview/tour-preview/whalesandwine.jpg">
+                                    <img class="card-img-top" src="imagenes/tours/tour-preview/whalesandwine.jpg">
                                     <div class="card-body">
                                         <h5 class="card-title">Wines & Whales</h5>
                                         <h6>Starting at $99 US</h6>
