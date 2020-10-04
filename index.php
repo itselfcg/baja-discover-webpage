@@ -87,7 +87,7 @@ include 'libs.php';
                     </div>
                     <div class="col-sm-3">
 
-                        <a href="taco-experience.php.php">
+                        <a href="rosarito.php">
                             <div class="preview-container">
                                 <img class="preview-img" src="imagenes/main/ad/ad6.jpg">
                             </div>
