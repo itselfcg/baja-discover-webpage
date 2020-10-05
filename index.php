@@ -18,9 +18,15 @@ include 'libs.php';
     <section class="intro">
         <div class="carousel">
             <div class="title">
-                <label>VISIT BC </label><br>
-                <a href="#info" class="btn"><i class="fa fa-plus" aria-hidden="true"></i>
-                    INFORMATION</a>
+                <label class="t1">ESCAPE FROM REALITY</label><br>
+                <label class="t2">Explore Baja California today!</label><br>
+               <div>
+                <a href="#info" class="btn btn-custom "><i class="fa fa-calendar" aria-hidden="true"></i>
+
+                    reservationS</a>
+                   <a href="#info" class="btn btn-white"><i class="fa fa-plus" aria-hidden="true"></i>
+                       INFORMATION</a>
+               </div>
             </div>
             <div id="intro-carousel">
                 <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">

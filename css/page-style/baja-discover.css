@@ -23,52 +23,43 @@
     position: relative;
 width: 100%;
 padding-top: 3%!important;
+
+}
+
+#intro-carousel img{
+    filter: brightness(50%);
+
+
 }
 
 
 #bajadiscover .title{
-    text-align: center;
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 10%;
     z-index: 2;
 }
 
-#bajadiscover .title label {
+#bajadiscover .title .t1 {
+    font-family: 'Pragati Narrow', sans-serif;
+
     text-shadow: 2px 2px 5px rgb(72, 72, 72);
     color: #ffffff;
-    font-size: 170px;
-    background: transparent;
+    font-size: 70px;
     padding-bottom: 0px!important;
     margin-bottom: -35px!important;
     user-select: none;
 }
-
-#bajadiscover .intro .btn {
-    text-shadow: 2px 2px 5px rgb(72, 72, 72);
-
-    font-weight: bold;
-    background: transparent;
-    color: white;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
+#bajadiscover .title .t2 {
+    color: #ffffff;
+    font-size: 40px;
+    user-select: none;
+    font-family: 'Sansita Swashed', cursive;
 
 }
 
-#bajadiscover .intro .btn:hover{
-    text-shadow: 0px 0px;
 
-    background: #d6d6d6;
-    border-color:  #d6d6d6;
-    color: black!important;
-    border-style: solid;
-    border-width: 2px;
-
-
-}
 #bajadiscover .intro a:link{
     color: #ffffff;
     text-decoration: none;
@@ -120,4 +111,21 @@ letter-spacing: 2px;
 
 #bajadiscover #map {
     height: 80vh;
+}
+
+#bajadiscover  .btn-custom{
+    padding: 20px;
+    background-color: #599334!important;
+}
+
+#bajadiscover  .btn-custom:hover{
+    filter: brightness(90%);
+    color: white!important;
+    border-color: #599334;
+
+}
+
+.ad-preview a:hover{
+opacity: .8;
+
 }

@@ -38,7 +38,11 @@ text-transform: uppercase;
     border-color: #599334;
 
 }
+.btn-white{
+    color: #ffffff;
+    border-color: #ffffff;
 
+}
 .btn-gold{
     color: #BD7A37;
     border-color: #BD7A37;
