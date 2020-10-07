@@ -19,14 +19,14 @@
 }
 
 
-#bajadiscover .carousel{
+#bajadiscover #header{
     position: relative;
 width: 100%;
 padding-top: 3%!important;
 
 }
 
-#intro-carousel img{
+#bajadiscover #header .cover img{
     filter: brightness(50%);
 
 
@@ -94,9 +94,9 @@ letter-spacing: 2px;
 
 
 #bajadiscover h1{
-    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
     color: #002032;
     user-select: none;
+    font-weight: 300;
     font-family: 'Rubik', sans-serif;
     font-size: 45px;
 }
@@ -107,10 +107,6 @@ letter-spacing: 2px;
 #bajadiscover .info{
     height: 100vh;
     background-color: white;
-}
-
-#bajadiscover #map {
-    height: 80vh;
 }
 
 #bajadiscover  .btn-custom{
@@ -128,4 +124,23 @@ letter-spacing: 2px;
 .ad-preview a:hover{
 opacity: .8;
 
+}
+
+#bajadiscover p{
+    font-weight: 300;
+    font-size: 20px!important;
+}
+
+
+#bajadiscover .cover{
+    z-index: 0;
+}
+
+
+h5{
+    font-family: 'Rubik', sans-serif;
+font-weight: 300;
+    text-align: right;
+font-size: 14px;
+    padding: 10px;
 }
