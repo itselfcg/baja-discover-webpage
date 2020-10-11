@@ -1,39 +1,70 @@
 @import url(../general/fonts.css);
 
-#bajadiscover .intro {
+#bajadiscover .header-picture {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
     background: white;
+    background: url("/baja-discover/imagenes/main/header/header.jpg") no-repeat center center;
+    filter: brightness(50%);
+
 }
 
-#bajadiscover .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+#bajadiscover .sponsors {
+    padding: 50px;
+    text-align: center;
+}
+
+#bajadiscover .info,
+#bajadiscover .us {
+    padding-top: 5vw;
+}
+
+
+#bajadiscover .ad {
+
     height: 100vh;
+}
+
+
+#bajadiscover .ad img {
+
+    max-height: 100vh;
+    width: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+    #bajadiscover .ad {
+        height: auto !important;
+
+    }
+
+
+    .pn-description, .rb-description, .te-description {
+        height: auto !important;
+
+
+    }
+
 
 }
 
 
-#bajadiscover #header{
-    position: relative;
-width: 100%;
-padding-top: 3%!important;
+#bajadiscover .header {
+    max-height: 100vh;
 
 }
 
-#bajadiscover #header .cover img{
+#bajadiscover #header .cover img {
     filter: brightness(50%);
 
 
 }
 
 
-#bajadiscover .title{
+#bajadiscover .title {
     margin: 0;
     position: absolute;
     top: 40%;
@@ -46,31 +77,29 @@ padding-top: 3%!important;
 
     text-shadow: 2px 2px 5px rgb(72, 72, 72);
     color: #ffffff;
-    font-size: 70px;
-    padding-bottom: 0px!important;
-    margin-bottom: -35px!important;
+    padding-bottom: 0px !important;
+    margin-bottom: -35px !important;
     user-select: none;
 }
+
 #bajadiscover .title .t2 {
     color: #ffffff;
-    font-size: 40px;
     user-select: none;
     font-family: 'Sansita Swashed', cursive;
 
 }
 
 
-#bajadiscover .intro a:link{
+#bajadiscover .intro a:link {
     color: #ffffff;
     text-decoration: none;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
-letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 
-
-#bajadiscover .ad-preview{
+#bajadiscover .ad-preview {
     width: 100%;
     height: 200px;
     overflow: hidden;
@@ -78,69 +107,204 @@ letter-spacing: 2px;
 }
 
 
-#bajadiscover .preview{
-    position: absolute;
-    z-index: 0;
-}
-
-
-#bajadiscover  .preview img{
+#bajadiscover .preview img {
     max-width: 100%;
     height: auto;
 }
 
 
-
-
-
-#bajadiscover h1{
+#bajadiscover h1, #bajadiscover h2, #bajadiscover h3 {
     color: #002032;
-    user-select: none;
-    font-weight: 300;
-    font-family: 'Rubik', sans-serif;
-    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    line-height: 0.5;
+
 }
 
 
-
-
-#bajadiscover .info{
-    height: 100vh;
-    background-color: white;
-}
-
-#bajadiscover  .btn-custom{
-    padding: 20px;
-    background-color: #599334!important;
-}
-
-#bajadiscover  .btn-custom:hover{
+#bajadiscover .btn:hover {
+    border-color: transparent;
     filter: brightness(90%);
-    color: white!important;
-    border-color: #599334;
+    color: currentColor;
 
 }
 
-.ad-preview a:hover{
-opacity: .8;
+.ad-preview a:hover {
+    opacity: .8;
 
 }
 
-#bajadiscover p{
+#bajadiscover .info-us p, #bajadiscover .info p {
     font-weight: 300;
-    font-size: 20px!important;
+    font-size: 20px !important;;
+    text-align: justify;
+
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+
+}
+
+.ad-type {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ad-type .type {
+    font-weight: lighter !important;
+    vertical-align: middle;
+    font-size: 20px !important;
+    font-family: 'Pragati Narrow', sans-serif;
+    background: black;
+    padding: 2px 20px 0px 20px;
+    letter-spacing: 1px;
+}
+
+.pn-description, .rb-description, .te-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
 }
 
 
-#bajadiscover .cover{
-    z-index: 0;
+#bajadiscover .pn-description label, #bajadiscover .te-description label, #bajadiscover .rb-description label {
+    line-height: 0.8;
+    text-shadow: 0px 0px transparent;
+    font-size: 7vw !important;
+
 }
 
 
-h5{
+#bajadiscover .pn-description label {
+    font-family: 'David Libre', serif;
+    font-weight: 500;
+    letter-spacing: -5px;
+
+}
+
+
+#bajadiscover .te-description label {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+
+}
+
+
+#bajadiscover .rb-description label {
+    font-family: 'Lobster', cursive;
+}
+
+
+#bajadiscover .pn-description p, #bajadiscover .rb-description p, #bajadiscover .te-description p {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px transparent;
+    text-align: center !important;
+}
+
+@media screen and (min-width: 701px) {
+    #bajadiscover .pn-description p, #bajadiscover .rb-description p, #bajadiscover .te-description p {
+        font-size: 25px !important;
+    }
+
+    #bajadiscover h1 {
+        font-size: 5vw;
+    }
+
+    #bajadiscover  h2 {
+        font-size: 3vw;
+
+    }
+    #bajadiscover .title .t1 {
+
+        font-size: 5vw;
+
+    }
+
+    #bajadiscover .title .t2 {
+        font-size: 3vw;
+
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    #bajadiscover .pn-description p, #bajadiscover .rb-description p, #bajadiscover .te-description p {
+        font-size: 15px !important;
+    }
+
+    #bajadiscover .pn-description label {
+        letter-spacing: 0px;
+
+    }
+
+    #bajadiscover .title .t1 {
+
+        font-size: 7vw;
+
+    }
+
+    #bajadiscover .title .t2 {
+        font-size: 5vw;
+
+
+    }
+}
+
+
+.info-section {
+    height: 200px;
+    padding: 30px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+    text-align: center !important;
+
+}
+
+
+.info-section label {
+    line-height: 2;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info-section p {
+    font-size: 13px !important;
+}
+
+.info-section hr {
+    border-color: #000000;
+    border-width: 1px;
+    width: 25%;
+}
+
+
+
+/* basic positioning */
+.legend { list-style: none; width: 50% }
+.legend li { float: left; margin-right: 10px;
+text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
-font-weight: 300;
-    text-align: right;
-font-size: 14px;
-    padding: 10px;
+font-size: 12px!important;
+}
+.legend div { float: left; width: 12px; height: 12px; margin-right: 20px; }
+
+#info .btn-format{
+
+    text-align: center
+}
+#info {
+    position: relative;
+
+
 }

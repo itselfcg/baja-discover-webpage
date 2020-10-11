@@ -4,7 +4,6 @@
 p {
     font-family: 'Rubik', sans-serif!important;
     font-size: 16px!important;
-    text-align: justify;
 }
 
 
@@ -34,8 +33,8 @@ text-transform: uppercase;
 
 
 .btn-green{
-    color: #599334;
-    border-color: #599334;
+    color: #8cc044;
+    border-color: #8cc044;
 
 }
 .btn-white{
@@ -52,8 +51,8 @@ text-transform: uppercase;
 
 
 .btn-red{
-    color: #bf2d1d;
-    border-color: #bf2d1d;
+    color: #ed2543;
+    border-color: #ed2543;
     border-width: 1px;
 
 }
@@ -68,5 +67,82 @@ text-transform: uppercase;
 .btn-black{
     color: black;
     border-color: black;
+
+}
+
+
+
+.btn-blue{
+    color: #1093a1;
+    border-color: #1093a1;
+    border-width: 1px;
+
+}
+
+.btn-pink{
+    color: #f7178d;
+    border-color: #f7178d;
+    border-width: 1px;
+
+}
+
+.btn-purple{
+    color: #a0237f;
+    border-color: #a0237f;
+    border-width: 1px;
+
+}
+
+
+.btn-yellow{
+    color: #f1d75a;
+    border-color: #f1d75a;
+    border-width: 1px;
+
+}
+
+.btn-orange{
+    color: #ed992f;
+    border-color: #ed992f;
+    border-width: 1px;
+
+}
+ .bg-blue{
+    background-color: #1093a1!important;
+
+}
+
+
+.bg-orange{
+    background-color: #ed992f!important;
+
+}
+
+
+.bg-purple{
+    background-color: #a0237f!important;
+
+}
+
+
+.bg-green{
+    background-color: #8cc044!important;
+
+}
+
+
+.bg-pink{
+    background-color: #f7178d!important;
+
+}
+
+
+.bg-yellow{
+    background-color: #f1d75a!important;
+
+}
+
+.bg-red{
+    background-color: #ed2543!important;
 
 }
