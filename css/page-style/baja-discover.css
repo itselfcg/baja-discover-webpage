@@ -1,6 +1,6 @@
 @import url(../general/fonts.css);
 
-#bajadiscover .header-picture {
+ .header-picture {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -11,24 +11,24 @@
 
 }
 
-#bajadiscover .sponsors {
+ .sponsors {
     padding: 50px;
     text-align: center;
 }
 
-#bajadiscover .info,
-#bajadiscover .us {
+ .info,
+ .us {
     padding-top: 5vw;
 }
 
 
-#bajadiscover .ad {
+ .ad {
 
     height: 100vh;
 }
 
 
-#bajadiscover .ad img {
+ .ad img {
 
     max-height: 100vh;
     width: auto;
@@ -36,7 +36,7 @@
 
 
 @media screen and (max-width: 992px) {
-    #bajadiscover .ad {
+     .ad {
         height: auto !important;
 
     }
@@ -52,19 +52,19 @@
 }
 
 
-#bajadiscover .header {
+ .header {
     max-height: 100vh;
 
 }
 
-#bajadiscover #header .cover img {
+ #header .cover img {
     filter: brightness(50%);
 
 
 }
 
 
-#bajadiscover .title {
+ .title {
     margin: 0;
     position: absolute;
     top: 40%;
@@ -72,7 +72,7 @@
     z-index: 2;
 }
 
-#bajadiscover .title .t1 {
+ .title .t1 {
     font-family: 'Pragati Narrow', sans-serif;
 
     text-shadow: 2px 2px 5px rgb(72, 72, 72);
@@ -82,7 +82,7 @@
     user-select: none;
 }
 
-#bajadiscover .title .t2 {
+ .title .t2 {
     color: #ffffff;
     user-select: none;
     font-family: 'Sansita Swashed', cursive;
@@ -90,7 +90,7 @@
 }
 
 
-#bajadiscover .intro a:link {
+ .intro a:link {
     color: #ffffff;
     text-decoration: none;
     font-size: 15px;
@@ -99,7 +99,7 @@
 }
 
 
-#bajadiscover .ad-preview {
+ .ad-preview {
     width: 100%;
     height: 200px;
     overflow: hidden;
@@ -107,13 +107,13 @@
 }
 
 
-#bajadiscover .preview img {
+ .preview img {
     max-width: 100%;
     height: auto;
 }
 
 
-#bajadiscover h1, #bajadiscover h2, #bajadiscover h3 {
+ h1,  h2,  h3 {
     color: #002032;
     text-transform: uppercase;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -123,7 +123,7 @@
 }
 
 
-#bajadiscover .btn:hover {
+ .btn:hover {
     border-color: transparent;
     filter: brightness(90%);
     color: currentColor;
@@ -135,7 +135,7 @@
 
 }
 
-#bajadiscover .info-us p, #bajadiscover .info p {
+ .info-us p,  .info p {
     font-weight: 300;
     font-size: 20px !important;;
     text-align: justify;
@@ -174,7 +174,7 @@
 }
 
 
-#bajadiscover .pn-description label, #bajadiscover .te-description label, #bajadiscover .rb-description label {
+ .pn-description label,  .te-description label,  .rb-description label {
     line-height: 0.8;
     text-shadow: 0px 0px transparent;
     font-size: 7vw !important;
@@ -182,7 +182,7 @@
 }
 
 
-#bajadiscover .pn-description label {
+ .pn-description label {
     font-family: 'David Libre', serif;
     font-weight: 500;
     letter-spacing: -5px;
@@ -190,7 +190,7 @@
 }
 
 
-#bajadiscover .te-description label {
+ .te-description label {
     text-transform: uppercase;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: bold;
@@ -198,12 +198,12 @@
 }
 
 
-#bajadiscover .rb-description label {
+ .rb-description label {
     font-family: 'Lobster', cursive;
 }
 
 
-#bajadiscover .pn-description p, #bajadiscover .rb-description p, #bajadiscover .te-description p {
+ .pn-description p,  .rb-description p,  .te-description p {
     text-transform: uppercase;
     color: white;
     text-shadow: 0px 0px transparent;
@@ -211,25 +211,26 @@
 }
 
 @media screen and (min-width: 701px) {
-    #bajadiscover .pn-description p, #bajadiscover .rb-description p, #bajadiscover .te-description p {
+     .pn-description p,  .rb-description p,  .te-description p {
         font-size: 25px !important;
     }
 
-    #bajadiscover h1 {
+     h1 {
         font-size: 5vw;
     }
 
-    #bajadiscover  h2 {
+     h2 {
         font-size: 3vw;
 
     }
-    #bajadiscover .title .t1 {
+
+     .title .t1 {
 
         font-size: 5vw;
 
     }
 
-    #bajadiscover .title .t2 {
+     .title .t2 {
         font-size: 3vw;
 
 
@@ -238,22 +239,22 @@
 }
 
 @media screen and (max-width: 700px) {
-    #bajadiscover .pn-description p, #bajadiscover .rb-description p, #bajadiscover .te-description p {
+     .pn-description p,  .rb-description p,  .te-description p {
         font-size: 15px !important;
     }
 
-    #bajadiscover .pn-description label {
+     .pn-description label {
         letter-spacing: 0px;
 
     }
 
-    #bajadiscover .title .t1 {
+     .title .t1 {
 
         font-size: 7vw;
 
     }
 
-    #bajadiscover .title .t2 {
+     .title .t2 {
         font-size: 5vw;
 
 
@@ -261,7 +262,7 @@
 }
 
 
-.info-section {
+  .info-section {
     height: 200px;
     padding: 30px;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
@@ -270,7 +271,7 @@
 }
 
 
-.info-section label {
+  .info-section label {
     line-height: 2;
 
     text-transform: uppercase;
@@ -278,33 +279,61 @@
     text-align: center;
 }
 
-.info-section p {
+  .info-section p {
     font-size: 13px !important;
 }
 
-.info-section hr {
+  .info-section hr {
     border-color: #000000;
     border-width: 1px;
     width: 25%;
 }
 
 
-
 /* basic positioning */
-.legend { list-style: none; width: 50% }
-.legend li { float: left; margin-right: 10px;
-text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
-font-size: 12px!important;
+  .legend {
+    list-style: none;
+    width: 70%
 }
-.legend div { float: left; width: 12px; height: 12px; margin-right: 20px; }
 
-#info .btn-format{
+  .legend li {
+    float: left;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px !important;
+}
 
+  .legend div {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 20px;
+}
+
+  #info .btn-format {
     text-align: center
 }
-#info {
+
+  #info {
     position: relative;
 
 
+}
+
+
+ #bcMoreInfo {
+    display: none;
+}
+
+
+  .info hr ,  .about hr{
+    border-color: #dbdbdb;
+    border-width: 1px;
+    width: 100%;
+}
+
+  figcaption {
+    padding: 10px;
+    font-size: 12px;
 }

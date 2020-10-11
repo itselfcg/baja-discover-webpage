@@ -11,7 +11,7 @@ include 'libs.php';
     <title>Baja Discover | Home </title>
     <link rel="stylesheet" type="text/css" href="css/page-style/baja-discover.css">
     <link rel="stylesheet" type="text/css" href="css/general/general.css">
-
+    <script src="js/index.js"></script>
 </head>
 <body>
 
@@ -79,7 +79,7 @@ include 'libs.php';
 
                 </div>
                 <div class="col-lg-8 info-us pb-5">
-                    <div><h2>We're the best travel agency </h2>
+                    <div class="about"><h2>We're the best travel agency </h2>
                         <h1> Baja Discover</h1>
                         <hr>
                         <article>
@@ -267,7 +267,7 @@ include 'libs.php';
 
     </section>
 
-    <section id="info" class="info">
+    <section id="info" class="info pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -307,6 +307,14 @@ include 'libs.php';
                         </article>
                     </div>
 
+                    <div class="btn-format">
+
+                        <button onclick="toggleMoreInfo(this);" id="show-hide-btn" class="btn btn-pink w-25"><i
+                                    class="fa fa-plus"
+                                    aria-hidden="true"></i> Show more
+                        </button>
+                    </div>                <br>
+
                 </div>
 
                 <div class="col-lg-4 text-center ">
@@ -337,10 +345,10 @@ include 'libs.php';
 
                     </ul>
 
-                    <!-- <img class=" w-100" src="imagenes/main/banners/1.png">-->
-
 
                 </div>
+            </div>
+            <div id="bcMoreInfo">
                 <div class="row">
                     <div class="col-lg-8"><h3><i class="fa fa-bicycle" aria-hidden="true"></i>
                             Activities</h3>
@@ -392,12 +400,16 @@ include 'libs.php';
                                     Fusce est ipsum, finibus ac feugiat gravida, efficitur a sem. Donec eleifend magna
                                     id suscipit tincidunt. Fusce ultricies tristique sapien, ut hendrerit massa
                                     facilisis et. Donec dapibus metus elit, vitae porttitor urna faucibus a. In ultrices
-                                    libero id purus mattis, a ultrices lectus ullamcorper.Fusce hendrerit, ex at tincidunt egestas, lorem sem tempus leo, non tempor eros massa
-                                    id mauris.  </p>
+                                    libero id purus mattis, a ultrices lectus ullamcorper.Fusce hendrerit, ex at
+                                    tincidunt egestas, lorem sem tempus leo, non tempor eros massa
+                                    id mauris.ut hendrerit massa
+                                    facilisis et. </p>
 
-                                <br>
+                                <br><br>
                                 <div class="btn-format">
-                                <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus" aria-hidden="true"></i> More info</a>
+                                    <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus"
+                                                                                                     aria-hidden="true"></i>
+                                        More info</a>
                                 </div>
                             </div>
 
@@ -419,49 +431,96 @@ include 'libs.php';
                             consequat
                             dolor et, porttitor velit. Donec dapibus diam sed viverra molestie. Donec elementum at
                             felis sed
-                            suscipit.  </p>
+                            suscipit. </p>
                         <figure>
 
                             <img class=" w-100" src="imagenes/main/info/gastronomy2.jpg">
                             <figcaption class="text-center"> Fig.# - Vestibulum ultrices.</figcaption>
                         </figure>
-                       <p> Fames ac ante ipsum primis in faucibus. </p><br>
+                        <p> Fames ac ante ipsum primis in faucibus. </p><br>
                         <div class="btn-format">
 
-                        <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus" aria-hidden="true"></i> More info</a>
+                            <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus"
+                                                                                             aria-hidden="true"></i>
+                                More info</a>
                         </div>
 
                     </div>
                 </div>
-            </div>
-            <div class="row">
+                <div class="row">
 
-                <div class="col-lg"><h3><i class="fa fa-glass" aria-hidden="true"></i>
+                    <div class="col-lg"><h3><i class="fa fa-glass" aria-hidden="true"></i>
 
-                        Nightlife</h3>
-                    <hr>
-                    <p>In erat lacus, aliquam sit amet laoreet a, gravida ac nunc. Ut sit amet est leo. Etiam vel
-                        lacinia est, at fringilla urna. Morbi sit amet metus ultricies, lobortis ligula vitae,
-                        molestie
-                        sem. </p> <br>
-                    <div class="btn-format">
+                            Nightlife</h3>
+                        <hr>
+                        <p>In erat lacus, aliquam sit amet laoreet a, gravida ac nunc. Ut sit amet est leo. Etiam vel
+                            lacinia est, at fringilla urna. Morbi sit amet metus ultricies, lobortis ligula vitae,
+                            molestie
+                            sem. </p>
 
-                    <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus" aria-hidden="true"></i> More info</a>
+                        <figure>
+
+                            <img class=" w-100" src="imagenes/main/info/nightlife.jpg">
+                            <figcaption class="text-center"> Fig.# - Vestibulum ultrices.</figcaption>
+                        </figure>
+
+                        <p>
+
+                            Donec molestie diam sit amet risus eleifend, vel gravida justo aliquet. Nam suscipit
+                            ullamcorper vehicula. Vestibulum faucibus urna eget arcu consectetur accumsan. Cras vitae
+                            purus vestibulum, molestie felis non, sollicitudin nulla. Donec imperdiet justo ac erat
+                            luctus, sit amet sollicitudin lacus iaculis. Integer lobortis velit ante.
+                        </p>
+
+
+                        <br>
+                        <div class="btn-format">
+
+                            <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus"
+                                                                                             aria-hidden="true"></i>
+                                More info</a>
+                        </div>
                     </div>
-                </div>
 
 
-                <div class="col-lg"><h3><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <div class="col-lg"><h3><i class="fa fa-shopping-bag" aria-hidden="true"></i>
 
-                        Shopping</h3>
-                    <hr>
-                    <p>Vestibulum mattis risus vitae nisl gravida, eget faucibus urna commodo. Nulla eu velit leo.
-                        Integer eget sem consequat, varius tellus eu, semper purus.  </p><br>
-                    <div class="btn-format">
+                            Shopping</h3>
+                        <hr>
+                        <p>Vestibulum mattis risus vitae nisl gravida, eget faucibus urna commodo. Nulla eu velit leo.
+                            Integer eget sem consequat, varius tellus eu, semper purus.Etiam et augue id libero faucibus
+                            malesuada. Vestibulum scelerisque libero id tempor lacinia. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra, per inceptos himenaeos. Proin sagittis porta neque eget
+                            interdum. Cras dapibus nisi ut leo scelerisque, a lobortis turpis convallis. Suspendisse id
+                            pellentesque tellus, non fringilla enim. </p>
 
-                    <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus" aria-hidden="true"></i> More info</a>
+                        <figure>
+
+                            <img class=" w-100" src="imagenes/main/info/shopping2.jpg">
+                            <figcaption class="text-center"> Fig.# - Vestibulum ultrices.</figcaption>
+                        </figure>
+
+                        <br>
+                        <div class="btn-format">
+
+                            <a href="" class="btn btn-blue disabled" aria-disabled="true"><i class="fa fa-plus"
+                                                                                             aria-hidden="true"></i>
+                                More info</a>
+                        </div>
                     </div>
+
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="btn-format">
+
+                            <button onclick="hideMoreInfo();" class="btn btn-pink "><i
+                                        class="fa fa-eye-slash"
+                                        aria-hidden="true"></i> Hide section
+                            </button>
+                        </div>
+                    </div>
+                </div>                            <br>
 
             </div>
             <div class="row">
@@ -486,6 +545,7 @@ include 'libs.php';
                         ante. Morbi a faucibus felis. </p></div>
 
             </div>
+
         </div>
 
 

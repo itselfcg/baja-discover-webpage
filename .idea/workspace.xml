@@ -14,30 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Changes in main page's titles style.">
-      <change afterPath="$PROJECT_DIR$/imagenes/main/ad2/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/ad2/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/ad2/background3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/ad2/background4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/ad2/backgrounds.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/header/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/activities.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/activities1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/activities1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/activities2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/culture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/gastronomy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/gastronomy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/info/gastronomy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/map1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/info/nightlife.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/info/shopping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/main/info/shopping2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_3_2020_5_20_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_3_2020_5_20_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/page-style/baja-discover.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page-style/baja-discover.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/main/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/main/baja.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
@@ -55,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -176,6 +160,7 @@
       <workItem from="1602109441686" duration="6538000" />
       <workItem from="1602204350497" duration="2397000" />
       <workItem from="1602360717800" duration="20995000" />
+      <workItem from="1602428963384" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -562,8 +547,8 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/62.0.1474.864@62.0.1474.864" timestamp="1598396913455" />
-    <state x="481" y="31" width="1055" height="801" key="find.popup" timestamp="1602388918599">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="-1515" y="-64" width="1063" height="801" key="find.popup" timestamp="1602432089278">
+      <screen x="-1920" y="-95" width="1468" height="864" />
     </state>
     <state x="2437" y="31" width="579" height="801" key="find.popup/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598410076223" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1448.864@78.0.1458.864" timestamp="1602382756888" />
@@ -573,6 +558,7 @@
     <state x="-1482" y="-64" width="578" height="801" key="find.popup/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601518392929" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1462.864@78.0.1458.864" timestamp="1602368423738" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1465.864@78.0.1458.864" timestamp="1602034724290" />
+    <state x="-1515" y="-64" width="1063" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@-1920.-95.1468.864" timestamp="1602432089278" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602388918599" />
     <state x="2437" y="31" width="579" height="801" key="find.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584969718" />
     <state x="2439" y="31" width="578" height="801" key="find.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601081836443" />
