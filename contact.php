@@ -1,5 +1,6 @@
 <?php
 include 'libs.php';
+include 'navbar.php';
 
 ?>
 
@@ -17,226 +18,255 @@ include 'libs.php';
     <body>
 
     <main id="contact">
-        <section class="intro">
-            <div class="row no-gutters">
+        <section class="intro ">
+            <div class="container ">
+                <article class="form">
+                    <div class="row ">
 
-                <div class="col-lg-6 bg-green">
-                    <div class=" half-container">
-                        <div class="address ">
-                            <div>
+                        <div class="col-lg-6 center">
+                            <div class="row">
+
+                                <div class="col-lg-12">
+                                    <div class="icon text-light">
+                                        <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <div class="form ">
+                                <div>
+                                    <h2>Let us help you</h2>
+                                    <h1>
+                                        <!--                                <i class="fa fa-envelope" aria-hidden="true"></i>-->
+                                        Contact US
+                                        &nbsp;</h1>
+                                    <hr>
+
+                                </div>
+
+                                <form id="survey-form">
+                                    <div class="form-contain">
+
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <label id="name-label" for="name">First name</label>
+                                                    <input id="name" class="form-control" type="text" name="name-label"
+                                                           required/>
+                                                </div>
+
+                                                <div class="col">
+                                                    <label id="lastname-label" for="lastname">Last name</label>
+                                                    <input id="lastname" class="form-control" type="text"
+                                                           name="lastname-label"
+                                                           required/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <label id="email-label" for="email">Email</label>
+                                                    <input id="email" class="form-control" type="email"
+                                                           name="email-label"
+                                                           placeholder="e.g. hello@example.com" required/>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="row">
+
+                                                <div class="col-6">
+                                                    <label id="phonenumber-label" for="phonenumber">Phone number</label>
+                                                    <input id="phonenumber" class="form-control" type="text"
+                                                           name="phonenumber-label" placeholder="(###) ###-####"
+                                                           required/>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="row">
+
+                                                <div class="col">
+                                                    <label id="subject-label" for="subject">Message subject</label>
+
+                                                    <select id="subject" class="form-control" name="business">
+                                                        <option value="1">Custom package</option>
+                                                        <option value="2">Reservation changes</option>
+                                                        <option value="3">Payment problem</option>
+                                                        <option value="4">Cancel reservation</option>
+                                                        <option value="4">Other</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <label for="exampleFormControlTextarea1">Message</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                          placeholder="Enter your message for us here. We will get back to you as soon as posible."
+                                                          rows=3"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+
+                                    <div class="">
+
+                                        <button type="button" class="w-100 btn bg-purple text-light ">
+
+                                            <i class="fa fa-paper-plane" aria-hidden="true"></i> SEND
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+                <article class="adresses">
+
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <div class="ubication bg-orange text-dark">
                                 <label>MEXICALI</label>
 
                                 <p>
 
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
-                                        Simón Bolívar # 232-12, Col. Centro<br>
+                                    <div class="col-lg-1 ">
+                                        <i class="fa fa-map-marker fa-lg " aria-hidden="true"></i>
+
+                                    </div>
+
+                                    <div class="col-lg">
+                                        Simón Bolívar # 232-12, Col. Centro Historico<br>
                                         C.P. 44140, Mexicali, Baja California.<br>
                                     </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-map-marker fa-lg text-yellow" aria-hidden="true"></i>
-
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
+                                    <div class="col-lg-1">
+                                        <i class="fa fa-phone " aria-hidden="true"></i>
+
+                                    </div>
+
+                                    <div class="col-lg ">
                                         +52 (686)-537-###<br>
                                     </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-phone text-purple" aria-hidden="true"></i>
-
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
-                                        contact@bajadiscover.com<br>
-                                    </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-envelope text-light" aria-hidden="true"></i>
+                                    <div class="col-lg-1 ">
+                                        <i class="fa fa-envelope " aria-hidden="true"></i>
 
+                                    </div>
+
+                                    <div class="col-lg">
+                                        contact@bajadiscover.com<br>
                                     </div>
                                 </div>
                                 </p>
                             </div>
-                            <Br>
-                            <div>
+                        </div>
+                        <div class=" col-md-4">
+                            <div class="ubication bg-yellow text-dark">
                                 <label>ROSARITO</label>
 
                                 <p>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
+                                    <div class="col-lg-1 col-sm-3 ">
+                                        <i class="fa fa-map-marker fa-lg " aria-hidden="true"></i>
+
+                                    </div>
+
+                                    <div class="col-lg col-sm">
                                         Av. Niño heroes No. 521 Col. Independecia<br>
                                         C.P. 22290 Rosarito, Baja California.</label><br>
                                     </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-map-marker fa-lg text-yellow" aria-hidden="true"></i>
-
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
+                                    <div class="col-lg-1 col-sm-3 ">
+                                        <i class="fa fa-phone " aria-hidden="true"></i>
+
+                                    </div>
+
+                                    <div class="col-lg col-sm">
                                         +52 (661)-123-###<br>
                                     </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-phone text-purple" aria-hidden="true"></i>
-
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
-                                        contact@bajadiscover.com<br>
-                                    </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-envelope text-light" aria-hidden="true"></i>
+                                    <div class="col-lg-1 col-sm-3 ">
+                                        <i class="fa fa-envelope " aria-hidden="true"></i>
 
+                                    </div>
+
+                                    <div class="col-lg col-sm">
+                                        contact@bajadiscover.com<br>
                                     </div>
                                 </div>
                                 </p>
                             </div>
-
-                            <Br>
-                            <div>
-                                <label>TIJUANA</label>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ubication bg-green text-dark">
+                                <label class="">TIJUANA</label>
 
                                 <p>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
+                                    <div class="col-lg-1 col-sm-3 ">
+                                        <i class="fa fa-map-marker fa-lg " aria-hidden="true"></i>
+
+                                    </div>
+
+                                    <div class="col-lg col-sm">
                                         Av. Chapultepec No. 536 - PH Col. Roma Norte<br>
                                         C.P. 06700 Tijuana, Baja California.</label><br>
                                     </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-map-marker fa-lg text-yellow" aria-hidden="true"></i>
-
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
+                                    <div class="col-lg-1 col-sm-3 ">
+                                        <i class="fa fa-phone " aria-hidden="true"></i>
+
+                                    </div>
+
+                                    <div class="col-lg col-sm">
                                         +52 (664)-123-###<br>
                                     </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-phone text-purple" aria-hidden="true"></i>
-
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-11 col-md-10">
-                                        contact@bajadiscover.com<br>
-                                    </div>
-                                    <div class="col-lg-1 col-md-2">
-                                        <i class="fa fa-envelope text-light" aria-hidden="true"></i>
+                                    <div class="col-lg-1 col-sm-3 ">
+                                        <i class="fa fa-envelope " aria-hidden="true"></i>
 
+                                    </div>
+
+                                    <div class="col-lg col-sm">
+                                        contact@bajadiscover.com<br>
                                     </div>
                                 </div>
                                 </p>
                             </div>
-
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="form half-container">
-                        <div class="title pb-2">
-
-                            <h1><i class="fa fa-envelope" aria-hidden="true"></i>
-                                Contact US
-                                &nbsp;</h1>
-                            <hr>
-
-                        </div>
-
-                        <form id="survey-form">
-                            <div class="form-contain">
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col">
-                                            <label id="name-label" for="name">First name</label>
-                                            <input id="name" class="form-control" type="text" name="name-label"
-                                                   required/>
-                                        </div>
-
-                                        <div class="col">
-                                            <label id="lastname-label" for="lastname">Last name</label>
-                                            <input id="lastname" class="form-control" type="text"
-                                                   name="lastname-label"
-                                                   required/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col">
-                                            <label id="email-label" for="email">Email</label>
-                                            <input id="email" class="form-control" type="email" name="email-label"
-                                                   placeholder="e.g. hello@example.com" required/>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="form-group">
-
-                                    <div class="row">
-
-                                        <div class="col-6">
-                                            <label id="phonenumber-label" for="phonenumber">Phone number</label>
-                                            <input id="phonenumber" class="form-control" type="text"
-                                                   name="phonenumber-label" placeholder="(###) ###-####" required/>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="form-group">
-
-                                    <div class="row">
-
-                                        <div class="col">
-                                            <label id="subject-label" for="subject">Message subject</label>
-
-                                            <select id="subject" class="form-control" name="business">
-                                                <option value="1">Custom package</option>
-                                                <option value="2">Reservation changes</option>
-                                                <option value="3">Payment problem</option>
-                                                <option value="4">Cancel reservation</option>
-                                                <option value="4">Other</option>
-
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col">
-
-                                        <label for="exampleFormControlTextarea1">Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                  placeholder="Enter your message for us here. We will get back to you as soon as posible."
-                                                  rows=3"></textarea>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <hr>
-
-                            <div class="">
-
-                                <button type="button" class="w-100 btn bg-purple text-light ">
-
-                                    <i class="fa fa-paper-plane" aria-hidden="true"></i> SEND
-                                </button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-
+                </article>
             </div>
-
-
         </section>
         <section class="location ">
             <div class="map">

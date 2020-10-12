@@ -112,6 +112,10 @@ text-transform: uppercase;
 
 }
 
+.bg-gray{
+    background-color: #d6d6d6!important;
+
+}
 
 .bg-orange{
     background-color: #ed992f!important;
