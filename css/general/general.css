@@ -1,5 +1,4 @@
 @import url(../general/fonts.css);
-@import url(../general/colors.css);
 
 p {
     font-family: 'Rubik', sans-serif!important;
@@ -168,7 +167,10 @@ text-transform: uppercase;
 
 
 
+.text-gray{
+    color: #d6d6d6!important;
 
+}
 
 
 .text-blue{

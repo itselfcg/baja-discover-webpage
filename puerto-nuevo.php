@@ -1,5 +1,6 @@
 <?php
 include 'navbar.php';
+
 include 'libs.php';
 
 ?>
@@ -7,49 +8,56 @@ include 'libs.php';
     <html>
     <head>
         <title>Baja Discover | Tours </title>
-        <link rel="stylesheet" type="text/css" href="css/page-style/puerto-nuevo.css">
-        <link rel="stylesheet" type="text/css" href="css/general/pricing-table.css">
         <link rel="stylesheet" type="text/css" href="css/general/general.css">
+        <link rel="stylesheet" type="text/css" href="css/general/pricing-table.css">
+        <link rel="stylesheet" type="text/css" href="css/general/tours.css">
 
     </head>
     <body>
 
     <main id="puerto-nuevo">
         <section class="intro">
-            <div class="container">
-                <div class="info">
+            <div class="container info">
+                <div>
+
+                    <h2>The best restaurants are in </h2>
+                    <h1>PUERTO NUEVO</h1>
+                    <hr>
+
+                    <p class="text-center text-dark">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i> 2h - 4h&nbsp;&nbsp;&nbsp;
+                        <i class="fa fa-car" aria-hidden="true"></i>Transportation included&nbsp;&nbsp;&nbsp;
+                        <i class="fa fa-users" aria-hidden="true"></i> Private group&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p class="text-justify">
+                        Morbi et fermentum magna. Quisque lorem massa, accumsan sed metus et, vestibulum gravida ex.
+                        Nullam a sem cursus eros pellentesque efficitur ac a turpis. Maecenas ac orci fringilla,
+                        pharetra nunc sit amet, bibendum tellus. Sed ac ex at leo consequat auctor faucibus et urna. In
+                        blandit metus vitae felis iaculis lobortis.
 
 
-                        <h1>PUERTO NUEVO</h1>
-                        <p style="text-align: center">
-                            <i class="fa fa-clock-o" aria-hidden="true"></i> 2h - 4h&nbsp;&nbsp;&nbsp;
-                            <i class="fa fa-car" aria-hidden="true"></i>Transportation included&nbsp;&nbsp;&nbsp;
-                            <i class="fa fa-users" aria-hidden="true"></i> Private group&nbsp;&nbsp;&nbsp;
-                        </p>
-                        <hr>
-                        <p style="text-align: justify">
-                            Taste the most delicius lobster in México. Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Nam a leo eu tortor blandit gravida. Quisque porttitor tellus ex, et
-                            fringilla arcu scelerisque a. Donec volutpat, massa sit amet iaculis volutpat, nisi metus
-                            malesuada metus, ut dapibus quam augue eget tellus. Nullam eu odio nec ipsum gravida
-                            fermentum non et eros. Etiam accumsan nec augue pretium pretium.
+                        Vivamus malesuada, nisi ac ultrices feugiat, justo dolor mattis mi, in tempor dui ante ut
+                        mauris. Aenean consequat tristique magna cursus tempor. Donec at urna cursus, volutpat ipsum sit
+                        amet, lacinia elit. Fusce ut neque orci. Duis lacinia elit metus, in placerat ante ultricies ac.
+                        Fusce consequat leo nisi, in efficitur lorem ullamcorper non.
 
 
-                        </p>
+                    </p>
 
 
-                        <br>
-                        <p class="text-right">
-                            <a href="#pricing" class="btn btn-red"><i class="fa fa-usd" aria-hidden="true"></i>
-
-                                PRICING</a>&nbsp;&nbsp;
-                            <a href="#pricing" class="btn btn-green"><i class="fa fa-address-book"
-                                                                        aria-hidden="true"></i>
+                    <br>
+                    <p class="text-right">
+                        <a href="#pricing" class="btn bg-green text-light"><i class="fa fa-address-book"
+                                                                              aria-hidden="true"></i>
 
 
-                                BOOK NOW</a>
-                        </p>
-                    </div>
+                            BOOK NOW</a>
+                        <a href="#pricing" class="btn btn-pink"><i class="fa fa-usd" aria-hidden="true"></i>
+
+                            PRICING</a>&nbsp;&nbsp;
+
+                    </p>
+                </div>
 
             </div>
 
@@ -57,79 +65,104 @@ include 'libs.php';
         </section>
 
 
-        <section id="pricing" class="pricing-section">
+        <section id="pricing" class="pricing-section container">
+            <h2>Live the EXPERIENCE with our </h2>
+            <h1>Packages</h1>
+            <hr>
 
-            <div class=" princing-container">
-                <div class="product">
-
-                    <div class="product-title">Basic</div>
-                    <div class="price">$50<sup>/Person</sup></div>
-                    <ul class="table-list">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Popular restaurant</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Lobster  </li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Transport</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Private guide</li>
-                    </ul>
-                    <div class="product-footer">
-                        <button class="btn btn-gold">Book now</button>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="product-title">Standar</div>
-                    <div class="price">$120<sup>/ Person</sup></div>
-                    <ul class="table-list">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Exclusive restaurant</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Lobster  </li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Drinks </li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                             Transport</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Private guide</li>
-
-                    </ul>
-                    <div class="product-footer">
-                        <button class="btn btn-gold">Book now</button>
-                    </div>
-                </div>
-                <div class="product">
-
-                    <div class="product-title">Premium</div>
-                    <div class="price">$180<sup>/Person</sup></div>
-
-                    <ul class="table-list">
-
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Exclusive restaurant</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Lobster  <span class="unlimited">Unlimited</span></li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Drinks  <span class="unlimited">Unlimited</span></li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            VIP Transport</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>
-                            Private guide</li>
+            <div class=" row">
+                <div class="col-md-4 product-box">
 
 
-                    </ul>
-                    <div class="footer">
+                    <div class="product">
+
+                        <div class="product-title">Basic</div>
+                        <div class="price bg-orange">$50<sup>/ Person</sup></div>
+                        <ul class="table-list">
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Popular restaurant
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Lobster
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Transport
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Private guide
+                            </li>
+                        </ul>
+
                         <div class="product-footer">
-                            <button class="btn btn-gold">Book now</button>
+                            <button class="btn bg-green text-light">Book now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-box">
+                    <div class="product">
+                        <div class="product-title">Standard</div>
+                        <div class="price bg-orange">$120<sup>/ Person</sup></div>
+                        <ul class="table-list">
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Exclusive restaurant
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Lobster
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Drinks
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Transport
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Private guide
+                            </li>
+
+                        </ul>
+                        <div class="product-footer">
+                            <button class="btn bg-green text-light">Book now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-box">
+                    <div class="product">
+
+                        <div class="product-title">Premium</div>
+                        <div class="price bg-orange">$180<sup>/ Person</sup></div>
+
+                        <ul class="table-list">
+
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Exclusive restaurant
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Lobster <span class="unlimited bg-pink">Unlimited</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Drinks <span class="unlimited bg-pink">Unlimited</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                VIP Transport
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>
+                                Private guide
+                            </li>
+
+
+                        </ul>
+                        <div class="footer">
+                            <div class="product-footer">
+                                <button class="btn bg-green text-light">Book now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
+
             </div>
 
             <br><br>
-            <div class="leyend">
-                <p>
+            <div >
+                <p class="text-center">
                     Not what you were looking for? <a href="contact.php">Contact us</a> for custom packages
 
                 </p>
@@ -138,7 +171,6 @@ include 'libs.php';
         </section>
     </main>
     </body>
-
 
 
 <?php
