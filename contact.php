@@ -187,7 +187,7 @@ include 'navbar.php';
                             </div>
                         </div>
                         <div class=" col-md-4">
-                            <div class="ubication bg-yellow text-dark">
+                            <div class="ubication bg-pink text-dark">
                                 <label>ROSARITO</label>
 
                                 <p>
