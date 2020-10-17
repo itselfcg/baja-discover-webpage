@@ -13,19 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Tour page changes. Version 2.">
-      <change afterPath="$PROJECT_DIR$/css/general/tours.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/background3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/background4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/tours/taco-experience/background5.jpg" afterDir="false" />
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Puerto nuevo and taco experience tour page changes. Version 2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/general/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/pricing-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/pricing-table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/page-style/puerto-nuevo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/page-style/taco-experience.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/puerto-nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/puerto-nuevo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-experience.php" beforeDir="false" afterPath="$PROJECT_DIR$/taco-experience.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rosarito.php" beforeDir="false" afterPath="$PROJECT_DIR$/rosarito.php" afterDir="false" />
     </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
     <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
@@ -167,7 +159,7 @@
       <workItem from="1602450530698" duration="5759000" />
       <workItem from="1602465887781" duration="4571000" />
       <workItem from="1602902911647" duration="6660000" />
-      <workItem from="1602957586250" duration="7516000" />
+      <workItem from="1602957586250" duration="7724000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -274,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602907644326</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Puerto nuevo and taco experience tour page changes. Version 2.">
+      <created>1602970783652</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602970783652</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +344,8 @@
     <MESSAGE value="Upgrade for info section, now it shows with a button." />
     <MESSAGE value="Contact page changes. Version 2." />
     <MESSAGE value="Tour page changes. Version 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tour page changes. Version 2." />
+    <MESSAGE value="Puerto nuevo and taco experience tour page changes. Version 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Puerto nuevo and taco experience tour page changes. Version 2." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
@@ -625,7 +625,7 @@
       <screen x="2001" y="0" width="1455" height="864" />
     </state>
     <state x="2522" y="291" key="scopes/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599869111059" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1602970380472">
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1602970870107">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="462" y="185" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1598396725306" />
@@ -635,7 +635,7 @@
     <state x="-1525" y="90" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601261228297" />
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1462.864@78.0.1458.864" timestamp="1602363660054" />
     <state x="-1521" y="90" width="680" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@-1920.-95.1468.864" timestamp="1602908885865" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602970380472" />
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602970870107" />
     <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500022083" />
     <state x="2396" y="185" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599882054210" />
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1602115476241" />

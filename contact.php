@@ -147,7 +147,7 @@ include 'navbar.php';
 
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <div class="ubication bg-orange text-dark">
+                            <div class="ubication bg-orange text-light">
                                 <label>MEXICALI</label>
 
                                 <p>
@@ -187,7 +187,7 @@ include 'navbar.php';
                             </div>
                         </div>
                         <div class=" col-md-4">
-                            <div class="ubication bg-pink text-dark">
+                            <div class="ubication bg-pink text-light">
                                 <label>ROSARITO</label>
 
                                 <p>
@@ -226,7 +226,7 @@ include 'navbar.php';
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="ubication bg-green text-dark">
+                            <div class="ubication bg-green text-light">
                                 <label class="">TIJUANA</label>
 
                                 <p>
