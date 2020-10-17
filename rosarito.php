@@ -7,6 +7,9 @@ include 'libs.php';
     <html>
     <head>
         <title>Baja Discover | Tours </title>
+        <link rel="stylesheet" type="text/css" href="css/general/google-search.css">
+        <link rel="stylesheet" type="text/css" href="css/general/general.css">
+
         <link rel="stylesheet" type="text/css" href="css/page-style/rosarito.css">
     </head>
     <body>
@@ -85,37 +88,108 @@ include 'libs.php';
         </section>
         <section id="info" class="info">
             <div class="container">
-                <div class="about row">
-                    <div class="col-5">
-                        <h1><i class="fa fa-info-circle" aria-hidden="true"></i>
-                            Rosarito</h1>
-                        <p>
-                            Rosarito is a fun place for youth to party on weekends and local nightclubs due to its
-                            proximity to California and the drinking age of 18 in Mexico.
-
-                            Wide sandy beaches, water sports, North America's 3rd largest bike ride held twice annually,
-                            golf along the ocean, surfing, deep sea fishing, horseback riding, spas, ATV riding on the
-                            beach and the sand dunes, a host of night clubs, home of Hollywood's newest international
-                            movie making Baja Studios, and so much more!
-                        </p>
-                        <p>
-                            However, Rosarito has spread out so much and many Americans come to Rosarito to retire in
-                            beautiful Ocean View communities, as well as to vacation in the beautiful condominiums for
-                            rent, and still others for the famous lobster dinners.</p>
-                        <p>
-                            Rosarito strives to maintain the cultural appearance of Mexico in order for visitors to
-                            sample Mexican hospitality, while enjoying tourist attractions and modern facilities.
-
-
-                        </p>
-
-                        <p>
-                            <a href="https://en.wikipedia.org/wiki/Rosarito_Beach"> Learn more...
-                            </a>
-                        </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="w-100" src="imagenes/discover/Rosarito/rosarito4.jpg"/>
                     </div>
-                    <div class="col-7">
-                        <div id="intro-carousel">
+                    <div class="col-md-8">
+                        <h2>The best beach in bc:</h2>
+                        <h1>Rosarito</h1>
+                        <hr>
+                        <div class="text-justify"><p>
+                                Rosarito is a fun place for youth to party on weekends and local nightclubs due to its
+                                proximity to California and the drinking age of 18 in Mexico.
+
+                                Wide sandy beaches, water sports, North America's 3rd largest bike ride held twice
+                                annually,
+                                golf along the ocean, surfing, deep sea fishing, horseback riding, spas, ATV riding on
+                                the
+                                beach and the sand dunes, a host of night clubs, home of Hollywood's newest
+                                international
+                                movie making Baja Studios, and so much more!
+                            </p>
+                            <p>
+                                However, Rosarito has spread out so much and many Americans come to Rosarito to retire
+                                in
+                                beautiful Ocean View communities, as well as to vacation in the beautiful condominiums
+                                for
+                                rent, and still others for the famous lobster dinners.
+                                Rosarito strives to maintain the cultural appearance of Mexico in order for visitors to
+                                sample Mexican hospitality, while enjoying tourist attractions and modern facilities.
+
+
+
+                            </p>
+                            <p class="text-center">   <a class="btn btn-pink" target="_blank" href="https://en.wikipedia.org/wiki/Rosarito_Beach"> Read more
+                                </a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-4"><h3><i class="fa fa-bicycle " aria-hidden="true"></i>
+                            Activities</h3>
+                        <hr>
+                        <p>Cras sit amet iaculis ante, a porttitor est. Donec ut odio at dolor tempus volutpat.
+                            Aliquam
+                            dictum sem purus. Aliquam tristique nunc nec ante ultricies, vestibulum feugiat
+                            risus
+                            tristique.In interdum, magna sed tincidunt eleifend, magna elit elementum arcu, et blandit
+                            leo
+                            quam
+                            in
+                            ante.Quisque congue iaculis libero eu mollis.
+                            Pellentesque tempus nec tortor fermentum faucibus. </p>
+
+
+                    </div>
+                    <div class="col-lg-4"><h3><i class="fa fa-cutlery " aria-hidden="true"></i>
+                            Gastronomy</h3>
+                        <hr>
+                        <p>Ut posuere sed augue vitae dictum. Praesent ut porta ligula. Sed sed erat eleifend,
+                            consequat
+                            dolor et, porttitor velit. Donec dapibus diam sed viverra molestie.Ut posuere sed augue
+                            vitae dictum. Praesent ut porta ligula. Sed sed erat eleifend,
+                            consequat
+                            dolor et, porttitor velit. Donec dapibus diam sed viverra molestie. Donec elementum at
+                            felis sed
+                            suscipit. Fames ac ante ipsum primis in faucibus. </p><br>
+
+
+                    </div>
+                    <div class="col-lg-4"><h3><i class="fa fa-glass " aria-hidden="true"></i>
+                            Nightlife</h3>
+                        <hr>
+                        <p>Ut posuere sed augue vitae dictum. Praesent ut porta ligula. Sed sed erat eleifend,
+                            consequat
+                            dolor et, porttitor velit. Donec dapibus diam sed viverra molestie.Ut posuere sed augue
+                            vitae dictum. Praesent ut porta ligula. Sed sed erat eleifend,
+                            consequat
+                            dolor et, porttitor velit. Donec dapibus diam sed viverra molestie. Donec elementum at
+                            felis sed
+                            suscipit. Fames ac ante ipsum primis in faucibus. </p><br>
+
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg">
+                        <h3><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+
+                            Shopping</h3>
+                        <hr>
+                        <p>Vestibulum mattis risus vitae nisl gravida, eget faucibus urna commodo. Nulla eu velit leo.
+                            Integer eget sem consequat, varius tellus eu, semper purus.Etiam et augue id libero faucibus
+                            malesuada. Vestibulum scelerisque libero id tempor lacinia. Class aptent taciti sociosqu ad
+                            litora torquent per conubia nostra, per inceptos himenaeos. Proin sagittis porta neque eget
+                            interdum. Cras dapibus nisi ut leo scelerisque, a lobortis turpis convallis. Suspendisse id
+                            pellentesque tellus, non fringilla enim. </p>
+
+
+                    </div>
+
+                    <div class="col-8 w-100 text-center">
+                        <div id="intro-carousel" class="">
                             <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
@@ -127,14 +201,16 @@ include 'libs.php';
 
                                 <div class="carousel-inner">
 
-                                    <div class="carousel-item ">
+                                    <div class="carousel-item active">
                                         <img class="d-block w-100" src="imagenes/discover/Rosarito/rosarito1.png">
                                     </div>
                                     <div class="carousel-item ">
                                         <img class="d-block w-100" src="imagenes/discover/Rosarito/rosarito2.png">
                                     </div>
-
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item ">
+                                        <img class="d-block w-100" src="imagenes/discover/Rosarito/rosarito3.jpg">
+                                    </div>
+                                    <div class="carousel-item ">
                                         <img class="d-block w-100" src="imagenes/discover/Rosarito/rosarito4.png">
                                     </div>
                                 </div>
@@ -151,18 +227,29 @@ include 'libs.php';
                             </div>
                         </div>
 
-                        <br>
-                        <div class="text-center">
-                            Available in Town<br><br>
-                            <img class="img-70" src="imagenes/discover/Rosarito/brands.png">
-                        </div>
                     </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg"><h3><i class="fa fa-cloud" aria-hidden="true"></i>
+                            Weather</h3>
+                        <hr>
+                        <p> Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eu vulputate purus.
+                            Integer
+                            eu urna vel ipsum iaculis mattis nec at erat. </p></div>
+
+                    <div class="col-lg"><h3><i class="fa fa-info-circle" aria-hidden="true"></i>
+
+                            Tips</h3>
+                        <hr>
+                        <p>In interdum, magna sed tincidunt eleifend, magna elit elementum arcu, et blandit leo quam in
+                            ante. Morbi a faucibus felis. </p></div>
+
+
                 </div>
 
 
             </div>
-
-
         </section>
 
         <section id="map" class="map">
@@ -173,20 +260,19 @@ include 'libs.php';
 
         <section id="events" class="events">
             <div class="container">
-                <h1> <i class="fa fa-calendar" aria-hidden="true"></i>
-                    Events </h1>
-                <h4>This month</h4>
-
+                <h2>VIsit our month's </h2>
+                <h1>Events</h1>
+                <hr>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
 
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-lg-4">
 
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        3rd October <br>
+                                        <h2>3</h2><h3>October</h3>
+
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         17:00<br>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -198,8 +284,8 @@ include 'libs.php';
 
 
                                     </div>
-                                    <div class="col-8">
-                                        <label>11th Mariachi Fest</label>
+                                    <div class="col-lg-8">
+                                        <label class="bg-orange text-light">11th Mariachi Fest</label>
                                         <hr>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu molestie
@@ -210,15 +296,15 @@ include 'libs.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
 
-                        <div class="card">
+                        <div class="card ">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-lg-4">
 
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        31th October <br>
+                                        <h2>31</h2><h3>October</h3>
+
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         21:00<br>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -229,9 +315,9 @@ include 'libs.php';
 
 
                                     </div>
-                                    <div class="col-8">
-                                        <label>Halloween party</label>
-                                        <hr>
+                                    <div class="col-lg-8">
+                                        <label class=" bg-purple text-light">Halloween party</label>
+
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu molestie
                                             orci, id auctor arcu.
@@ -242,19 +328,49 @@ include 'libs.php';
                         </div>
                     </div>
                 </div>
-                <h4>Cooming soon</h4>
 
                 <div class="row">
+                    <div class="col-md-6">
 
-                    <div class="col-6">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4">
+
+                                        <h2>5</h2><h3>NOVEMBER</h3>
+
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        21:00<br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Papas & Beer<br>
+                                        <i class="fa fa-phone" aria-hidden="true"></i> (621) 125-###<br>
+                                        <i class="fa fa-globe" aria-hidden="true"></i> <a
+                                                href="http://papasandbeer.com/" target="_blank">Website</a> <br>
+
+
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <label class=" bg-pink text-light">Rosarito party</label>
+
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu molestie
+                                            orci, id auctor arcu.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
 
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-lg-4">
 
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        27th November <br>
+
+                                        <h2>27</h2><h3>November</h3>
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         21:00<br>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -263,8 +379,8 @@ include 'libs.php';
 
 
                                     </div>
-                                    <div class="col-8">
-                                        <label>Thanksgiving dinner</label>
+                                    <div class="col-lg-8">
+                                        <label class="bg-blue text-light">Thanksgiving dinner</label>
                                         <hr>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu molestie
@@ -279,9 +395,7 @@ include 'libs.php';
 
 
             </div>
-            <div class="container text-right">
-                <img src="imagenes/discover/Rosarito/sponsor1.png">
-            </div>
+
         </section>
 
 

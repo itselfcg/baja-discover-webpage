@@ -483,7 +483,8 @@ include 'libs.php';
                     </div>
 
 
-                    <div class="col-lg"><h3><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <div class="col-lg">
+                        <h3><i class="fa fa-shopping-bag" aria-hidden="true"></i>
 
                             Shopping</h3>
                         <hr>

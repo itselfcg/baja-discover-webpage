@@ -13,10 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Puerto nuevo and taco experience tour page changes. Version 2.">
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Adresses card's text color change">
+      <change afterPath="$PROJECT_DIR$/css/general/google-search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/discover/Rosarito/flyer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/discover/Rosarito/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/discover/Rosarito/rosarito4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/general/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/page-style/rosarito.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page-style/rosarito.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rosarito.php" beforeDir="false" afterPath="$PROJECT_DIR$/rosarito.php" afterDir="false" />
     </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
@@ -159,7 +164,7 @@
       <workItem from="1602450530698" duration="5759000" />
       <workItem from="1602465887781" duration="4571000" />
       <workItem from="1602902911647" duration="6660000" />
-      <workItem from="1602957586250" duration="7724000" />
+      <workItem from="1602957586250" duration="13489000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -273,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602970783652</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adresses card's text color change">
+      <created>1602970969767</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602970969767</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +357,8 @@
     <MESSAGE value="Contact page changes. Version 2." />
     <MESSAGE value="Tour page changes. Version 2." />
     <MESSAGE value="Puerto nuevo and taco experience tour page changes. Version 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Puerto nuevo and taco experience tour page changes. Version 2." />
+    <MESSAGE value="Adresses card's text color change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adresses card's text color change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
@@ -374,12 +387,12 @@
     </state>
     <state x="-1463" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.1458.864/-1920.-95.1453.864@-1920.-95.1453.864" timestamp="1601845805486" />
     <state x="537" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602965958519" />
-    <state x="-1822" y="-2" width="1273" height="678" key="DiffContextDialog" timestamp="1602963855993">
+    <state x="-1822" y="-2" width="1273" height="678" key="DiffContextDialog" timestamp="1602975827817">
       <screen x="-1920" y="-95" width="1468" height="864" />
     </state>
     <state x="-1746" y="-2" width="1270" height="678" key="DiffContextDialog/78.0.1458.864/-1839.-95.1455.864@-1839.-95.1455.864" timestamp="1601257870098" />
     <state x="171" y="93" width="1273" height="678" key="DiffContextDialog/78.0.1458.864/-1920.-95.1453.864@78.0.1458.864" timestamp="1601870537896" />
-    <state x="-1822" y="-2" width="1273" height="678" key="DiffContextDialog/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602963855993" />
+    <state x="-1822" y="-2" width="1273" height="678" key="DiffContextDialog/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602975827817" />
     <state x="171" y="93" width="1273" height="678" key="DiffContextDialog/78.0.1458.864/-1920.-95.1474.864@78.0.1458.864" timestamp="1602035481784" />
     <state x="2094" y="93" width="1270" height="678" key="DiffContextDialog/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601082364919" />
     <state x="171" y="93" width="1273" height="678" key="DiffContextDialog/78.0.1458.864@78.0.1458.864" timestamp="1602111685874" />
@@ -592,7 +605,7 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/62.0.1474.864@62.0.1474.864" timestamp="1598396913455" />
-    <state x="481" y="31" width="1055" height="801" key="find.popup" timestamp="1602970675697">
+    <state x="481" y="31" width="1055" height="801" key="find.popup" timestamp="1602973413425">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="2437" y="31" width="579" height="801" key="find.popup/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598410076223" />
@@ -604,7 +617,7 @@
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1462.864@78.0.1458.864" timestamp="1602368423738" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1465.864@78.0.1458.864" timestamp="1602034724290" />
     <state x="-1515" y="-64" width="1063" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@-1920.-95.1468.864" timestamp="1602432089278" />
-    <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602970675697" />
+    <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602973413425" />
     <state x="2437" y="31" width="579" height="801" key="find.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584969718" />
     <state x="2439" y="31" width="578" height="801" key="find.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601081836443" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864@78.0.1458.864" timestamp="1602115771813" />
@@ -625,7 +638,7 @@
       <screen x="2001" y="0" width="1455" height="864" />
     </state>
     <state x="2522" y="291" key="scopes/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599869111059" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1602970870107">
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1602976084869">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="462" y="185" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1598396725306" />
@@ -635,7 +648,7 @@
     <state x="-1525" y="90" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601261228297" />
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1462.864@78.0.1458.864" timestamp="1602363660054" />
     <state x="-1521" y="90" width="680" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@-1920.-95.1468.864" timestamp="1602908885865" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602970870107" />
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602976084869" />
     <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500022083" />
     <state x="2396" y="185" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599882054210" />
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1602115476241" />
