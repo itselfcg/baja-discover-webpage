@@ -1,41 +1,31 @@
 
-#footer .bottom {
-    position:absolute;
-    bottom:0;
 
-}
 
-#footer .center{
-    height: 10em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer{
-    background-color: #bababa;
+.footer{
     padding-top:2%;
     font-family: 'Barlow', sans-serif;
     letter-spacing: 1px;
-    font-size:10px;
+    font-size:12px;
 
 }
 
-footer a{
-    color:#393e46;
+ a{
+    color: #000000;
 }
 
-footer a:hover{
-    color:#758184;
+a:hover{
+    color: #ffffff;
     text-decoration:none;
 }
 
-#footer h5{
+.footer h4{
 font-weight: bold;
     text-transform: uppercase;
 }
 
-#footer .award{
-    max-width: 100%;
-    height: auto;
+
+.media{
+    display: inline-flex;
+    text-align:center
+
 }

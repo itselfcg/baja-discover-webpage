@@ -1,5 +1,4 @@
 <?php
-include 'navbar.php';
 include 'libs.php';
 
 ?>
@@ -7,12 +6,16 @@ include 'libs.php';
     <html>
     <head>
         <title>Baja Discover | Tours </title>
-        <link rel="stylesheet" type="text/css" href="css/general/general.css">
         <link rel="stylesheet" type="text/css" href="css/general/tours.css">
         <link rel="stylesheet" type="text/css" href="css/general/pricing-table.css">
 
 
     </head>
+    <header>
+        <?php
+        include 'navbar.php';
+        ?>
+    </header>
     <body>
 
     <main id="tacoexperience">
@@ -151,9 +154,9 @@ include 'libs.php';
                 </div>
                 </div>
             </div>
-            </div>
 
-<br><br>
+
+<br>
             <div >
                 <p class="text-center">
                     Not what you were looking for? <a href="contact.php">Contact us</a> for custom packages

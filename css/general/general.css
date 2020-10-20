@@ -1,11 +1,17 @@
 @import url(../general/fonts.css);
+@import url(../general/colors.css);
 
-p {
-    font-family: 'Rubik', sans-serif!important;
-    font-size: 16px!important;
+
+
+
+h1,  h2,  h3,h4 {
+    color: #002032;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    line-height: 0.6;
+
 }
-
-
 
 .btn {
 text-transform: uppercase;
@@ -17,8 +23,8 @@ text-transform: uppercase;
 }
 
 .btn:hover{
-    background: #d6d6d6;
-    border-color:  #d6d6d6;
+    background: var(--gray);
+    border-color:  var(--gray);
     color: black!important;
     border-style: solid;
     border-width: 1px;
@@ -28,8 +34,8 @@ text-transform: uppercase;
 
 
 .btn-green{
-    color: #8cc044;
-    border-color: #8cc044;
+    color: var(--green);
+    border-color: var(--green);
 
 }
 .btn-white{
@@ -38,23 +44,23 @@ text-transform: uppercase;
 
 }
 .btn-gold{
-    color: #BD7A37;
-    border-color: #BD7A37;
+    color: var(--golden);
+    border-color: var(--golden);
     border-width: 1px;
 
 }
 
 
 .btn-red{
-    color: #ed2543;
-    border-color: #ed2543;
+    color: var(--red);
+    border-color: var(--red);
     border-width: 1px;
 
 }
 
 .btn-gray{
-    color: #d6d6d6;
-    border-color: #d6d6d6;
+    color: var(--gray);
+    border-color: var(--gray);
 
 }
 
@@ -68,81 +74,81 @@ text-transform: uppercase;
 
 
 .btn-blue{
-    color: #1093a1;
-    border-color: #1093a1;
+    color: var(--blue);
+    border-color: var(--blue);
     border-width: 1px;
 
 }
 
 .btn-pink{
-    color: #f7178d;
-    border-color: #f7178d;
+    color: var(--pink);
+    border-color: var(--pink);
     border-width: 1px;
 
 }
 
 .btn-purple{
-    color: #a0237f;
-    border-color: #a0237f;
+    color: var(--purple);
+    border-color: var(--purple);
     border-width: 1px;
 
 }
 
 
 .btn-yellow{
-    color: #f1d75a;
-    border-color: #f1d75a;
+    color: var(--yellow);
+    border-color: var(--yellow);
     border-width: 1px;
 
 }
 
 .btn-orange{
-    color: #ed992f;
-    border-color: #ed992f;
+    color: var(--orange);
+    border-color: var(--orange);
     border-width: 1px;
 
 }
  .bg-blue{
-    background-color: #1093a1!important;
+    background-color: var(--blue)!important;
 
 }
 
 .bg-gray{
-    background-color: #d6d6d6!important;
+    background-color: var(--gray)!important;
 
 }
 
 .bg-orange{
-    background-color: #ed992f!important;
+    background-color: var(--orange)!important;
 
 }
 
 
 .bg-purple{
-    background-color: #a0237f!important;
+    background-color: var(--purple)!important;
 
 }
 
 
 .bg-green{
-    background-color: #8cc044!important;
+    background-color: var(--green)!important;
 
 }
 
 
 .bg-pink{
-    background-color: #f7178d!important;
+    background-color: var(--pink)!important;
 
 }
 
 
 .bg-yellow{
-    background-color: #f1d75a!important;
+    background-color: var(--yellow)!important;
 
 }
 
 .bg-red{
-    background-color: #ed2543!important;
+    background-color: var(--red)!important;
 
 }
 
@@ -164,48 +170,48 @@ text-transform: uppercase;
 
 
 .text-gray{
-    color: #d6d6d6!important;
+    color: var(--gray)!important;
 
 }
 
 
 .text-blue{
-    color: #1093a1!important;
+    color: var(--blue)!important;
 
 }
 
 
 .text-orange{
-    color: #ed992f!important;
+    color: var(--orange)!important;
 
 }
 
 
 .text-purple{
-    color: #a0237f!important;
+    color: var(--purple)!important;
 
 }
 
 
 .text-green{
-    color: #8cc044!important;
+    color: var(--green)!important;
 
 }
 
 
 .text-pink{
-    color: #f7178d!important;
+    color: var(--pink)!important;
 
 }
 
 
 .text-yellow{
-    color: #f1d75a!important;
+    color: var(--yellow)!important;
 
 }
 
 .text-red{
-    color: #ed2543!important;
+    color: var(--red)!important;
 
 }
 
@@ -222,41 +228,41 @@ text-transform: uppercase;
 
 
 .border-blue{
-    border-color: #1093a1!important;
+    border-color: var(--blue)!important;
 
 }
 
 
 .border-orange{
-    border-color: #ed992f!important;
+    border-color: var(--orange)!important;
 
 }
 
 
 .border-purple{
-    border-color: #a0237f!important;
+    border-color: var(--purple)!important;
 
 }
 
 
 .border-green{
-    border-color: #8cc044!important;
+    border-color: var(--green)!important;
 
 }
 
 
 .border-pink{
-    border-color: #f7178d!important;
+    border-color: var(--pink)!important;
 
 }
 
 
 .border-yellow{
-    border-color: #f1d75a!important;
+    border-color: var(--yellow)!important;
 
 }
 
 .border-red{
-    border-color: #ed2543!important;
+    border-color: var(--red)!important;
 
 }

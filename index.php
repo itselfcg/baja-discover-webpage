@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php
-include 'navbar.php';
 
 include 'libs.php';
 
@@ -10,9 +9,15 @@ include 'libs.php';
 <head>
     <title>Baja Discover | Home </title>
     <link rel="stylesheet" type="text/css" href="css/page-style/baja-discover.css">
-    <link rel="stylesheet" type="text/css" href="css/general/general.css">
     <script src="js/index.js"></script>
 </head>
+
+<header class="index-nav">
+    <?php
+    include 'navbar.php';
+    ?>
+</header>
+
 <body>
 
 <main id="bajadiscover">
@@ -79,7 +84,8 @@ include 'libs.php';
 
                 </div>
                 <div class="col-lg-8 info-us pb-5">
-                    <div class="about"><h2>We're the best travel agency </h2>
+                    <div class="about pt-4">
+                        <h2>We're the best travel agency </h2>
                         <h1> Baja Discover</h1>
                         <hr>
                         <article>

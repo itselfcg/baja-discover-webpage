@@ -1,46 +1,55 @@
+@import url(../general/colors.css);
 
-.navbar{
-    border-radius: 0px;
-    padding-top:10px;
-    position: fixed; /* Set the navbar to fixed position */
-    width: 100%; /* Full width */
-text-transform: uppercase;
-    z-index: 999;
-background-color: white;
-    color: black;
-}
-#logo{
-    height: 50px;
-    width: auto;
-}
-
-.nav-link{
-font-size: 25px!important;
-color: black;
-}
-li {
-    font-size: 15px!important;
-
-    padding-right: 25px;
-}
-#info-droplist i{
-    padding-right: 8px;
-}
-
-#info-droplist{
-    position: absolute;
-    z-index: 10;
+.main-menu li{
+    padding-left: 40px;
+    text-transform: uppercase;
 }
 
 
-.nav-item a:hover{
-  color: black !important;
-    border-bottom: 2px solid #BD7A37;
+.navbar {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 25, 0.25);
+
 }
 
-#main-navbar a:visited{
-    color: black;
+.navbar-toggler{
+    border: solid white 1px;
 }
-#main-navbar .nav-link:link{
-    color: black;
+
+
+.navbar {
+    background-color: white;
+}
+
+ .navbar a{
+    color:black;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover{
+    border-bottom: solid 2px var(--green);
+}
+
+
+.index-nav .navbar a{
+   color:white;
+}
+
+.index-nav .navbar {
+    background-color: transparent;
+}
+
+
+
+@media screen and (max-width: 993px) {
+    #media-link {
+     display: none;
+    }
+
 }

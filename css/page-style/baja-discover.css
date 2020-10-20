@@ -8,6 +8,7 @@
     background: white;
     background: url("/baja-discover/imagenes/main/header/header.jpg") no-repeat center center;
     filter: brightness(50%);
+     z-index: 0;
 
 }
 
@@ -16,8 +17,7 @@
     text-align: center;
 }
 
- .info,
- .us {
+ .info, .us {
     padding-top: 5vw;
 }
 
@@ -74,7 +74,7 @@
 
  .title .t1 {
     font-family: 'Pragati Narrow', sans-serif;
-
+font-weight: bold;
     text-shadow: 2px 2px 5px rgb(72, 72, 72);
     color: #ffffff;
     padding-bottom: 0px !important;
@@ -113,14 +113,7 @@
 }
 
 
- h1,  h2,  h3 {
-    color: #002032;
-    text-transform: uppercase;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: bold;
-    line-height: 0.5;
 
-}
 
 
  .btn:hover {
@@ -136,8 +129,8 @@
 }
 
  .info-us p,  .info p {
-    font-weight: 300;
-    font-size: 20px !important;;
+    font-weight: 400;
+    font-size: 18px !important;;
     text-align: justify;
 
 }
@@ -267,20 +260,20 @@
     padding: 30px;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
     text-align: center !important;
+      font-family: 'Rubik', sans-serif;
 
 }
 
 
   .info-section label {
     line-height: 2;
-
+    font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
-    text-align: center;
 }
 
   .info-section p {
-    font-size: 13px !important;
+    font-size: 13px;
 }
 
   .info-section hr {

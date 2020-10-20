@@ -1,5 +1,4 @@
 <?php
-include 'navbar.php';
 include 'libs.php';
 
 ?>
@@ -8,10 +7,14 @@ include 'libs.php';
     <head>
         <title>Baja Discover | Tours </title>
         <link rel="stylesheet" type="text/css" href="css/general/google-search.css">
-        <link rel="stylesheet" type="text/css" href="css/general/general.css">
-
         <link rel="stylesheet" type="text/css" href="css/page-style/rosarito.css">
     </head>
+    <header >
+        <?php
+        include 'navbar.php';
+        ?>
+    </header>
+
     <body>
 
     <main id="rosarito">
@@ -89,7 +92,7 @@ include 'libs.php';
         <section id="info" class="info">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 pb-3">
                         <img class="w-100" src="imagenes/discover/Rosarito/rosarito4.jpg"/>
                     </div>
                     <div class="col-md-8">
@@ -271,7 +274,7 @@ include 'libs.php';
                                 <div class="row">
                                     <div class="col-lg-4">
 
-                                        <h2>3</h2><h3>October</h3>
+                                        <h2>3</h2><h4>October</h4>
 
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         17:00<br>
@@ -303,7 +306,7 @@ include 'libs.php';
                                 <div class="row">
                                     <div class="col-lg-4">
 
-                                        <h2>31</h2><h3>October</h3>
+                                        <h2>31</h2><h4>October</h4>
 
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         21:00<br>
@@ -337,7 +340,7 @@ include 'libs.php';
                                 <div class="row">
                                     <div class="col-lg-4">
 
-                                        <h2>5</h2><h3>NOVEMBER</h3>
+                                        <h2>5</h2><h4>NOVEMBER</h4>
 
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         21:00<br>
@@ -370,7 +373,7 @@ include 'libs.php';
                                     <div class="col-lg-4">
 
 
-                                        <h2>27</h2><h3>November</h3>
+                                        <h2>27</h2><h4>November</h4>
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         21:00<br>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>

@@ -3,28 +3,26 @@
     <link rel="stylesheet" type="text/css" href="css/general/footer.css">
 </head>
 
-<footer id="footer" class="page-footer font-small blue">
-    <div class="container-fluid text-center text-md-left">
-        <!-- Grid row -->
+<footer class="footer bg-blue">
+
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-3">
-                    <h5>My Trip</h5>
+                    <h4>My Trip</h4>
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Trip Status</a>
-                        </li>
+
 
                         <li>
-                            <a href="#!">Book a reservation</a>
+                            <a href="#!">Book reservation</a>
                         </li>
                         <li>
-                            <a href="#!">Custom package</a>
+                            <a href="#!">Check reservation</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <h5>Help</h5>
+                    <h4>Help</h4>
+
                     <ul class="list-unstyled">
                         <li>
                             <a href="#!">FAQ</a>
@@ -41,27 +39,37 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    <h5>Find us</h5>
+                <div class="col-md-3 ">
+                    <h4>Find us</h4>
+
                     <ul class="list-unstyled">
 
-                        <li>
-                            <a href="#!">+52 (686)-537-###</a>
+                        <li>MEXICALI -
+                            +52 (686)-537-###
                         </li>
-                        <li>
-                            <a href="#!">+52 (664)-123-###</a>
+                        <li>TIJUANA -
+                            +52 (664)-123-###
                         </li>
-                        <li>
-                            <a href="#!">contact@bajadiscover.com</a>
+                        <li>ROSARITO - +52 (661)-123-###</li>
+                        <li>contact@bajadiscover.com
                         </li>
 
 
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    <div class=" center">
+                <div class="col-md-3 ">
+                    <h4></h4>
+                    <div class="media">
 
-                        <img class="award" src="imagenes/main/footer/awards.png"/>
+                    <a class="nav-link" href="https://www.facebook.com/rosaritobeach/" target="_blank"><i
+                                        class="fa fa-facebook fa-3x"></i></a>
+                            <a class="nav-link" href="https://www.tripadvisor.com.mx/Search?q=rosarito" target="_blank"><i
+                                        class="fa fa-tripadvisor fa-3x"></i></a>
+
+                            <a class="nav-link" href="https://es.pinterest.com/rosaritobeach" target="_blank"><i
+                                        class="fa fa-pinterest fa-3x"></i></a>
+                    <a class="nav-link" href="https://www.instagram.com/EXPLOREROSARITO/" target="_blank"><i
+                                    class="fa fa-instagram fa-3x"></i></a>
                     </div>
                 </div>
 
@@ -69,9 +77,9 @@
 
         </div>
 
-    </div><br>
-    <div class="footer-copyright text-center py-3">© 2020 Copyright
-        <a href="https://codepen.io/itselfcg">BAJA DISCOVER MÉXICO.</a>
+    <br>
+    <div class="footer-copyright text-center py-3 ">© 2020 Copyright
+        <a  href="https://codepen.io/itselfcg">BAJA DISCOVER MÉXICO.</a>
     </div>
 </footer>
 </html>

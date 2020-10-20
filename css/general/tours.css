@@ -35,15 +35,6 @@
 
 
 
-h1,h2{
-    color: #002032;
-    text-transform: uppercase;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: bold;    line-height: 0.5;
-
-
-}
-
 
 @media screen and (min-width: 701px) {
 
@@ -61,7 +52,13 @@ h1,h2{
 
 .info p {
     font-weight: 300;
-    font-size: 18px !important;;
+    font-size: 15px !important;
     text-align: justify;
 
+}
+
+
+
+.pricing-section a:link{
+    color: var(--blue);
 }
