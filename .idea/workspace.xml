@@ -13,14 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Navbar and footer updgade to version 2. Boostrap libs fix (minor style changes in almost all pages to fix some problem).">
-      <change afterPath="$PROJECT_DIR$/imagenes/logo/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/logo/logov2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/banners/logo.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/main/logo2.png" afterDir="false" />
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Logo upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/navbar.js" afterDir="false" />
     </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
     <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
@@ -167,7 +163,7 @@
       <workItem from="1603164833190" duration="600000" />
       <workItem from="1603211983817" duration="5146000" />
       <workItem from="1603248937750" duration="223000" />
-      <workItem from="1603321467818" duration="2221000" />
+      <workItem from="1603321467818" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -295,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603217118393</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Logo upgrade">
+      <created>1603323908269</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603323908269</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +372,8 @@
     <MESSAGE value="Puerto nuevo and taco experience tour page changes. Version 2." />
     <MESSAGE value="Adresses card's text color change" />
     <MESSAGE value="Navbar and footer updgade to version 2. Boostrap libs fix (minor style changes in almost all pages to fix some problem)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar and footer updgade to version 2. Boostrap libs fix (minor style changes in almost all pages to fix some problem)." />
+    <MESSAGE value="Logo upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo upgrade" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1598396145125">
@@ -608,7 +612,7 @@
     </state>
     <state x="2558" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584918020" />
     <state x="2560" y="302" key="VCS.EditChangelistDialog/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599868695517" />
-    <state x="400" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603217127795">
+    <state x="400" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603323914045">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="-1600" y="70" key="Vcs.Push.Dialog.v2/78.0.1458.864/-1920.-95.1450.864@-1920.-95.1450.864" timestamp="1601946482781" />
@@ -618,7 +622,7 @@
     <state x="400" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1602960344343" />
     <state x="2320" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598501269032" />
     <state x="2322" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1600997986586" />
-    <state x="400" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864@78.0.1458.864" timestamp="1603217127795" />
+    <state x="400" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864@78.0.1458.864" timestamp="1603323914045" />
     <state x="407" y="43" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603064492618">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
@@ -667,7 +671,7 @@
       <screen x="2001" y="0" width="1455" height="864" />
     </state>
     <state x="2522" y="291" key="scopes/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599869111059" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1603248968161">
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1603324644481">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="462" y="185" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1598396725306" />
@@ -680,7 +684,7 @@
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1603248968161" />
     <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500022083" />
     <state x="2396" y="185" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599882054210" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1603216802785" />
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1603324644481" />
     <state x="-1769" y="89" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1601849575117">
       <screen x="-1920" y="-95" width="1453" height="864" />
     </state>
