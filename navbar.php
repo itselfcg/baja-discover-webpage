@@ -5,8 +5,11 @@
 </head>
 <header id="nav">
     <nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-expand-md ">
-        <div class="container"><h3 class="my-auto">
-                <a class="navbar-brand" href="index.php">BAJA DISCOVER</a></h3>
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.php">                <img src="imagenes/logo/logo2.png"></a>
+
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon">    <i id="icon" class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
 </span>
@@ -27,9 +30,6 @@
                 </span>
 
                 <ul class="navbar-nav ml-auto main-menu">
-                    <li class="nav-item active">
-                        <a class="nav-link py-1" href="index.php">Home</a>
-                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link py-1" href="tours.php">Tours</a>

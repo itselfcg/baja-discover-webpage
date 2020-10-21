@@ -4,8 +4,17 @@
     padding-left: 40px;
     text-transform: uppercase;
 }
+.navbar-brand {
+    align-self: flex-start;
+}
+img{
+width: 9%;
+}
 
+.navbar-brand img {
+    position: absolute;
 
+}
 .navbar {
     z-index: 99;
     position: fixed;
