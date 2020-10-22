@@ -154,38 +154,37 @@ include 'libs.php';
                             <div class="text-center"><label>Mexicali</label>
                             </div>
                             <div class="row">
-                                <div class="col-lg-1 ">
+                                <div class="col-lg-1 col-sm-3 ">
                                     <i class="fa fa-map-marker fa-lg " aria-hidden="true"></i>
 
                                 </div>
 
-                                <div class="col-lg">
+                                <div class="col-lg col-sm">
                                     <p>
-
-                                        Simón Bolívar # 232-12, Col. Centro Historico<br>
-                                        C.P. 44140, Mexicali, Baja California.
-                                    </p>
-
+                                        Av. Rio presidio 128 Col. Independecia<br>
+                                        C.P. 21200 Mexicali, Baja California.</p>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-1">
+                                <div class="col-lg-1 col-sm-3 ">
                                     <i class="fa fa-phone " aria-hidden="true"></i>
 
                                 </div>
 
-                                <div class="col-lg ">
-                                    <p>+52 (686)-537-###</p>
+                                <div class="col-lg col-sm">
+                                    <p>
+                                        +52 (686)-123-###</p>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-1 ">
+                                <div class="col-lg-1 col-sm-3 ">
                                     <i class="fa fa-envelope " aria-hidden="true"></i>
 
                                 </div>
 
-                                <div class="col-lg">
-                                    <p>contact@bajadiscover.com</p>
+                                <div class="col-lg col-sm">
+                                    <p>
+                                        contact@bajadiscover.com</p>
                                 </div>
                             </div>
                         </div>
