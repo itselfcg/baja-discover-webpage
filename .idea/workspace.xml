@@ -15,7 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Navbar logo size fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general/tours.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/tours.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puerto-nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/puerto-nuevo.php" afterDir="false" />
     </list>
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
     <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
@@ -122,7 +123,6 @@
       <changelist id="3f6c551a-1915-4b99-a46d-c865397db8ea" name="Resources organization." comment="" />
       <changelist id="f5d98176-35cb-426a-9942-08bf88a25507" name="Login changes" comment="Change of pictures path. Change of error message appearance." />
       <changelist id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
-      <changelist id="" name="Navbar logo size fix" comment="" />
       <created>1598394917340</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -164,6 +164,7 @@
       <workItem from="1603211983817" duration="5146000" />
       <workItem from="1603248937750" duration="223000" />
       <workItem from="1603321467818" duration="3533000" />
+      <workItem from="1603560919689" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="Base project">
       <created>1598501220190</created>
@@ -668,7 +669,7 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="629" y="333" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/62.0.1474.864@62.0.1474.864" timestamp="1598396913455" />
-    <state x="481" y="31" width="1055" height="801" key="find.popup" timestamp="1603323681986">
+    <state x="481" y="31" width="1055" height="801" key="find.popup" timestamp="1603561346323">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="2437" y="31" width="579" height="801" key="find.popup/62.0.1474.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598410076223" />
@@ -680,7 +681,7 @@
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1462.864@78.0.1458.864" timestamp="1602368423738" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1465.864@78.0.1458.864" timestamp="1602034724290" />
     <state x="-1515" y="-64" width="1063" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@-1920.-95.1468.864" timestamp="1602432089278" />
-    <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1603249093646" />
+    <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1603561346323" />
     <state x="2437" y="31" width="579" height="801" key="find.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598584969718" />
     <state x="2439" y="31" width="578" height="801" key="find.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1601081836443" />
     <state x="481" y="31" width="1055" height="801" key="find.popup/78.0.1458.864@78.0.1458.864" timestamp="1603323681986" />
@@ -701,7 +702,7 @@
       <screen x="2001" y="0" width="1455" height="864" />
     </state>
     <state x="2522" y="291" key="scopes/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599869111059" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1603325066302">
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup" timestamp="1603561746879">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="462" y="185" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1598396725306" />
@@ -711,7 +712,7 @@
     <state x="-1525" y="90" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1455.864@-1920.-95.1455.864" timestamp="1601261228297" />
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1462.864@78.0.1458.864" timestamp="1602363660054" />
     <state x="-1521" y="90" width="680" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@-1920.-95.1468.864" timestamp="1602908885865" />
-    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1603248968161" />
+    <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.-95.1468.864@78.0.1458.864" timestamp="1603561746879" />
     <state x="2394" y="185" width="665" height="678" key="search.everywhere.popup/78.0.1458.864/1998.0.1458.864@1998.0.1458.864" timestamp="1598500022083" />
     <state x="2396" y="185" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/2001.0.1455.864@2001.0.1455.864" timestamp="1599882054210" />
     <state x="474" y="185" width="675" height="678" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1603325066302" />

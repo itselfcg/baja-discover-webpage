@@ -20,8 +20,8 @@ include 'libs.php';
 
     <main id="puerto-nuevo">
         <section class="intro">
-            <div class="container info">
-                <div>
+            <div class="container">
+                <div class="info">
 
                     <h2>The best restaurants are in </h2>
                     <h1>PUERTO NUEVO</h1>
@@ -36,14 +36,8 @@ include 'libs.php';
                         Morbi et fermentum magna. Quisque lorem massa, accumsan sed metus et, vestibulum gravida ex.
                         Nullam a sem cursus eros pellentesque efficitur ac a turpis. Maecenas ac orci fringilla,
                         pharetra nunc sit amet, bibendum tellus. Sed ac ex at leo consequat auctor faucibus et urna. In
-                        blandit metus vitae felis iaculis lobortis.
-
-
-                        Vivamus malesuada, nisi ac ultrices feugiat, justo dolor mattis mi, in tempor dui ante ut
-                        mauris. Aenean consequat tristique magna cursus tempor. Donec at urna cursus, volutpat ipsum sit
-                        amet, lacinia elit. Fusce ut neque orci. Duis lacinia elit metus, in placerat ante ultricies ac.
-                        Fusce consequat leo nisi, in efficitur lorem ullamcorper non.
-
+                        blandit metus vitae felis iaculis lobortis. Vivamus malesuada, nisi ac ultrices feugiat, justo dolor mattis mi, in tempor dui ante ut
+                        mauris.
 
                     </p>
 
