@@ -24,7 +24,7 @@ function changeNavbar(height){
     if ($('header').is('.index-nav')) {
 
         if ($(document).scrollTop() > (height - 50)) {
-            $(".navbar").css("background-color", "#f8f8f8");
+            $(".navbar").css("background-color", "rgba(255,255,255,0.7)");
             $(".navbar a").css("color", "#000000");
             $(".navbar-toggler").css("border-color", "black");
 
@@ -44,7 +44,7 @@ function changeNavbar(height){
     } else {
         console.log(":D")
         $(".navbar a").css("color", "#000000");
-        $(".navbar-fixed-top").css("background-color", "#FFFFFF"); // if not, change it back to transparent
+        $(".navbar-fixed-top").css("background-color", "rgba(255,255,255,0.7)"); // if not, change it back to transparent
         document.getElementById("icon").style.color = "#000000";
         $(".navbar-toggler").css("border-color", "black");
 
