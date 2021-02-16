@@ -3,16 +3,20 @@
  .header-picture {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     height: 100vh;
     background: white;
-    background: url("/baja-discover/imagenes/main/header/header.jpg") no-repeat center center;
+    background: url("/baja-discover/imagenes/main/header/header.jpg") repeat center center;
     filter: brightness(50%);
      z-index: 0;
 
 }
 
- .sponsors {
+
+
+
+
+.sponsors {
     padding: 50px;
     text-align: center;
 }

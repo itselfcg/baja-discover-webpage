@@ -43,7 +43,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Ensenada</a>
-                            <a class="dropdown-item" href="mexicali.php">Mexicali</a>
+                            <a class="dropdown-item" href="#">Mexicali</a>
                             <a class="dropdown-item" href="#">Tecate</a>
                             <a class="dropdown-item" href="#">Tijuana</a>
                             <a class="dropdown-item" href="rosarito.php">Rosarito</a>

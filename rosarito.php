@@ -28,7 +28,7 @@ include 'libs.php';
 
                             </div>
 
-                            <div class="col-11"><label class="search-text">Rosarito, Baja California </label>
+                            <div class="col-11"><label class="search-text">&nbsp; Rosarito, Baja California </label>
                             </div>
 
                         </div>
@@ -44,7 +44,7 @@ include 'libs.php';
 
                                     <div class="col-11">
 
-                                        <label class="result-text">rosarito baja california info
+                                        <label class="result-text">&nbsp; rosarito baja california info
                                         </label>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ include 'libs.php';
 
                                     <div class="col-11">
 
-                                        <label class="result-text"> rosarito baja california map </label>
+                                        <label class="result-text">&nbsp;  rosarito baja california map </label>
                                     </div>
                                 </div>
                             </a>
@@ -73,7 +73,7 @@ include 'libs.php';
 
                                     <div class="col-11">
 
-                                        <label class="result-text">rosarito baja california
+                                        <label class="result-text">&nbsp; rosarito baja california
                                             events</label>
                                     </div>
                                 </div>

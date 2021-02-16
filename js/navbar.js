@@ -25,7 +25,7 @@ function changeNavbar(height){
 
         if ($(document).scrollTop() > (height - 50)) {
             $(".navbar").css("background-color", "rgba(255,255,255,0.7)");
-            $(".navbar a").css("color", "#000000");
+            $(".navbar .nav-link").css("color", "#000000");
             $(".navbar-toggler").css("border-color", "black");
 
             document.getElementById('media-link').style.display = "none";
@@ -34,7 +34,7 @@ function changeNavbar(height){
 
         } else {
             $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
-            $(".navbar a").css("color", "#FFFFFF");
+            $(".navbar .nav-link").css("color", "#FFFFFF");
             document.getElementById('media-link').style.display = "block";
 
             document.getElementById("icon").style.color = "#ffffff";
@@ -42,8 +42,7 @@ function changeNavbar(height){
 
         }
     } else {
-        console.log(":D")
-        $(".navbar a").css("color", "#000000");
+        $(".navbar .nav-link").css("color", "#000000");
         $(".navbar-fixed-top").css("background-color", "rgba(255,255,255,0.7)"); // if not, change it back to transparent
         document.getElementById("icon").style.color = "#000000";
         $(".navbar-toggler").css("border-color", "black");
