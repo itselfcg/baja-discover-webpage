@@ -4,36 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Project base files were removed. Now project only contains baja discover webpage.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/google-search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/google-search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general/tours.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general/tours.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/page-style/baja-discover.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page-style/baja-discover.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/discover/Rosarito/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/discover/Rosarito/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/puerto-nuevo/background.-2jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/puerto-nuevo/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/tours/puerto-nuevo/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/puerto-nuevo/background.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/puerto-nuevo/background2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/puerto-nuevo/background5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/01_Verzosa_FeatCont_Joshua-Resnick.7a2b74c9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/background2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/background4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/tours/taco-experience/background5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rosarito.php" beforeDir="false" afterPath="$PROJECT_DIR$/rosarito.php" afterDir="false" />
-    </list>
+    <list default="true" id="f3ac7956-2186-4547-ab15-8cb3128c4e9d" name="Default Changelist" comment="Project base files were removed. Now project only contains baja discover webpage." />
     <list id="8a5455d2-875f-45c4-8361-7cd8dd217b86" name="Index page" comment="New main page for project." />
     <list id="5df5e647-d1db-42f1-b04c-4609875388fa" name="login" comment="" />
     <list id="f5d98176-35cb-426a-9942-08bf88a25507" name="Login view update" comment="Change of pictures path. Change of error message appearance." />
@@ -57,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="heroku" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -481,6 +456,10 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state width="642" height="392" key="GridCell.Tab.1.right/94.0.2658.1152@94.0.2658.1152" timestamp="1613433215607" />
+    <state x="1016" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614107532162">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1016" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614107532162" />
     <state x="1517" y="100" width="1142" height="958" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613433276975">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
@@ -493,5 +472,9 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1745" y="272" key="run.anything.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1613433752796" />
+    <state x="1080" y="230" width="672" height="676" key="search.everywhere.popup" timestamp="1614107614346">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1080" y="230" width="672" height="676" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614107614346" />
   </component>
 </project>
